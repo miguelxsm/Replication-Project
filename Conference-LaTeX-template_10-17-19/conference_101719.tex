@@ -3,7 +3,7 @@
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
+	\usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
@@ -11,65 +11,47 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Conference Paper Title*\\
-{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
-should not be used}
-\thanks{Identify applicable funding agency here. If none, delete this.}
+\title{Replication of ``Source Code Properties of Defective Infrastructure as Code Scripts'' (Rahman \& Williams, 2019)\\
 }
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\author{\IEEEauthorblockN{1\textsuperscript{st} MIGUEL CARRASCO GUIRAO}
+\IEEEauthorblockA{BARCELONA, SPAIN \\
+miguel.carrasco-guirao@polymtl.ca}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{2\textsuperscript{nd} POL MARGARIT FISAS}
+\IEEEauthorblockA{BARCELONA, SPAIN \\
+	pol.margarit-i-fisas@polymtl.ca}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{3\textsuperscript{rd} OHTO ...}
+\IEEEauthorblockA{...,... \\
+	...polymtl.ca}
 \and
-\IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{4\textsuperscript{th} ...}
+\IEEEauthorblockA{..., ... \\
+	...polymtl.ca}
 }
 
 \maketitle
 
 \begin{abstract}
-This document is a model and instructions for \LaTeX.
-This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
-or Math in Paper Title or Abstract.
+	This paper reports a replication of key parts of Rahman and Williams (2019). The replication focuses on (i) reproducing subsections 3.1.1 (Repository Collection) and 3.1.2 (Commit Message Processing) of the original methodology and (ii) answering research questions RQ1 and RQ3 using the authors' released datasets. We describe our mining setup with the GitHub API and caching to respect rate limits, operationalize commit message processing to build extended commit messages, and then use the supplied datasets to analyze source code properties of Puppet scripts (RQ1) and to build defect prediction models (RQ3). We report our findings, compare them against the original study, and discuss deviations and threats to validity.
 \end{abstract}
 
 \begin{IEEEkeywords}
-component, formatting, style, styling, insert
+	Replication, Mining Software Repositories, Infrastructure as Code, Puppet, Defect Prediction, Empirical Software Engineering
 \end{IEEEkeywords}
 
 \section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+Infrastructure as Code (IaC) enables automated, reliable deployment pipelines. Defects in IaC scripts can undermine these pipelines. Rahman and Williams (2019) investigated which source code properties of Puppet scripts correlate with defectiveness and how those properties can be used to build defect prediction models. 
 
+
+In this project, we replicate part of their study by reproducing Sections~3.1.1 
+(Repository Collection) and~3.1.2 (Commit Message Processing), 
+and by addressing two research questions: RQ1, which investigates 
+what source code properties characterize defective IaC scripts, 
+and RQ3, which explores how defect prediction models can be constructed 
+using those properties. Our replication relies on the authors’ released datasets 
+and compares our findings against the original results.
 \section{Ease of Use}
 
 \subsection{Maintaining the Integrity of the Specifications}
