@@ -1,0 +1,2397 @@
+{
+  "openstack/puppet-keystone": null,
+  "openstack/puppet-nova": null,
+  "openstack/puppet-neutron": null,
+  "openstack/puppet-glance": [
+    {
+      "sha": "2d6712e2adb4efef97a6a0cf3c0357f7f7b82cd2",
+      "date": "2025-09-29T15:35:06+00:00",
+      "message": "Merge \"Refactor api service management\""
+    },
+    {
+      "sha": "088cf4ba5b3361fc15675da3b271d43e5e0b4a22",
+      "date": "2025-09-29T07:33:15+00:00",
+      "message": "Merge \"Fix notification from glance_api_paste_ini when httpd is used\""
+    },
+    {
+      "sha": "6502280cfc277486936a0a8a76818dbc67904747",
+      "date": "2025-09-27T14:56:53+00:00",
+      "message": "Import base parameter types for ::policy"
+    },
+    {
+      "sha": "b9b2448b03e502365b692e4c711397c345697c61",
+      "date": "2025-09-26T15:33:53+00:00",
+      "message": "Refactor api service management"
+    },
+    {
+      "sha": "5e7533b8c329b604852c2622f817fd34d50b793c",
+      "date": "2025-09-26T15:05:24+00:00",
+      "message": "Fix notification from glance_api_paste_ini when httpd is used"
+    },
+    {
+      "sha": "389798d819be6e59f9c2893922722d97179db361",
+      "date": "2025-09-23T14:03:26+00:00",
+      "message": "Merge \"Validate ensure parameter for package resources\""
+    },
+    {
+      "sha": "69970e64de24270082a5f1fc47f43c17c7a6cae2",
+      "date": "2025-09-23T08:43:17+00:00",
+      "message": "Validate ensure parameter for package resources"
+    },
+    {
+      "sha": "e39a5862676bf1b2be131a5a56034153c48e2bbe",
+      "date": "2025-09-22T17:54:53+00:00",
+      "message": "Merge \"metadata.json: Support Debian 13\""
+    },
+    {
+      "sha": "5da7e378f3f693ef794bf7cf6e3a41b783b0b96f",
+      "date": "2025-09-22T12:00:04+00:00",
+      "message": "metadata.json: Support Debian 13"
+    },
+    {
+      "sha": "17921d79ed522b3f872c339774ea4f4a87cfb489",
+      "date": "2025-09-17T15:57:56+00:00",
+      "message": "Fix missing session options for Barbican key manager"
+    },
+    {
+      "sha": "5848dd8b47ade0be134a828b645fac215bec550c",
+      "date": "2025-09-08T23:42:53+00:00",
+      "message": "Merge \"Correct subcommand in parameter description\""
+    },
+    {
+      "sha": "ed2c1945aee33f611f42ff6e15a24f222c3b7817",
+      "date": "2025-09-08T11:28:32+00:00",
+      "message": "Correct subcommand in parameter description"
+    },
+    {
+      "sha": "2501b49bca19f162f0d870214d1f345de1b7dbc4",
+      "date": "2025-09-07T04:37:57+00:00",
+      "message": "Drop unnecessary management of swiftclient"
+    },
+    {
+      "sha": "91491d4b372beb00c3ff1c108108ecf0e5004e1e",
+      "date": "2025-09-03T07:30:02+00:00",
+      "message": "Remove support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "d08f45f0d300902b60ff9419a66d559a6f44b916",
+      "date": "2025-09-03T07:30:02+00:00",
+      "message": "Fix lint error"
+    },
+    {
+      "sha": "2d71ed5689503962f03e0f737c1d27546089128d",
+      "date": "2025-08-23T05:41:28+00:00",
+      "message": "Merge \"Prepare for voxpupuli-puppet-lint-plugins\""
+    },
+    {
+      "sha": "7763abb0f5509216684476138508d17ef3039d17",
+      "date": "2025-08-20T11:07:23+00:00",
+      "message": "Replace wsgi script"
+    },
+    {
+      "sha": "d5a380bdeca856e5fe65cec306208877d9ca0807",
+      "date": "2025-08-19T15:30:09+00:00",
+      "message": "Prepare for voxpupuli-puppet-lint-plugins"
+    },
+    {
+      "sha": "9624e1eac260133e701a89ff5952c7855693544a",
+      "date": "2025-08-18T16:58:42+00:00",
+      "message": "Remove puppet 7 support"
+    },
+    {
+      "sha": "0aec78803d36d6f518d89b6d14bf0fa261e2e7c0",
+      "date": "2025-08-18T16:58:42+00:00",
+      "message": "Fix remaining lint error"
+    },
+    {
+      "sha": "f83b92bd30bbc9d4c9e502146ee6130ab353e20f",
+      "date": "2025-08-15T11:25:09+00:00",
+      "message": "Prepare for new lint plugins"
+    },
+    {
+      "sha": "e41af323a5caff067043b8c3e272daa32dcff383",
+      "date": "2025-08-15T01:30:19+00:00",
+      "message": "Merge \"Switch to namespace sdtlib functions\""
+    },
+    {
+      "sha": "88d0d028d924f6b533f91706e1df8eaea2943d2a",
+      "date": "2025-08-14T09:23:38+00:00",
+      "message": "Switch to namespace sdtlib functions"
+    },
+    {
+      "sha": "a394ca27af4f77cc02379e09fe003c5f5692efc9",
+      "date": "2025-07-14T15:58:39+00:00",
+      "message": "Merge \"Remove swift_store_config_file\""
+    },
+    {
+      "sha": "c7e0af089b632cae8445a7ca3ed4dbd2d95f4635",
+      "date": "2025-07-14T13:03:10+00:00",
+      "message": "Remove swift_store_config_file"
+    },
+    {
+      "sha": "6165e24030e649853f80ecb021787a050ba6fd35",
+      "date": "2025-07-14T10:19:29+00:00",
+      "message": "Add support for cinder backend default options"
+    },
+    {
+      "sha": "17823ff226f4fa05a05e3a11484fc74fbd038a6f",
+      "date": "2025-07-11T06:45:47+00:00",
+      "message": "Add support for [backend_defaults] options"
+    },
+    {
+      "sha": "a93781c2d324f0d81b146436c3dacc737eb7d5de",
+      "date": "2025-07-04T10:00:11+00:00",
+      "message": "Merge \"Deprecate support for filesystem_store_datadirs\""
+    },
+    {
+      "sha": "52b58b27a34768132159d20ecc8a55a19fcd9b5d",
+      "date": "2025-07-04T10:00:09+00:00",
+      "message": "Merge \"Drop outdated EXPERIMENTAL mark\""
+    },
+    {
+      "sha": "cec97a7e08af2a42f687f8cb4990a573d645aeef",
+      "date": "2025-07-04T09:41:05+00:00",
+      "message": "Merge \"swift: Switch to domain_name\""
+    },
+    {
+      "sha": "84851abcf6f2535140b763971ec5ad5aba801f8a",
+      "date": "2025-07-04T09:41:03+00:00",
+      "message": "Merge \"Improve description of swift store driver parameters\""
+    },
+    {
+      "sha": "31e428fc6b41c08b118b2e6e941c0eff7b9437e5",
+      "date": "2025-07-04T09:16:46+00:00",
+      "message": "Merge \"swift: Deprecate support for auth_version\""
+    },
+    {
+      "sha": "850c9246f08c1fd8c0c820d3b1e4e7d898561e4e",
+      "date": "2025-07-02T16:10:06+00:00",
+      "message": "Deprecate support for filesystem_store_datadirs"
+    },
+    {
+      "sha": "da11a7e02b7438eb995313041ee12915e63d2346",
+      "date": "2025-07-02T14:18:42+00:00",
+      "message": "swift: Switch to domain_name"
+    },
+    {
+      "sha": "1234fd54c94f932f89b86098481f3087ba23af18",
+      "date": "2025-07-01T14:38:19+00:00",
+      "message": "Drop outdated EXPERIMENTAL mark"
+    },
+    {
+      "sha": "8ef014a044ab05fe3139ae483698303ab48cbdc2",
+      "date": "2025-07-01T14:23:55+00:00",
+      "message": "Improve description of swift store driver parameters"
+    },
+    {
+      "sha": "dd910ba37030fb8de3a4b3606907964be3e6dc2f",
+      "date": "2025-07-01T13:01:01+00:00",
+      "message": "swift: Deprecate support for auth_version"
+    },
+    {
+      "sha": "5fd27a084c08d3fc9d4ec335155ae0c3b8717230",
+      "date": "2025-06-30T14:31:33+00:00",
+      "message": "Add queue_manager and stream_fanout"
+    },
+    {
+      "sha": "d36598fa2c8e4566b6faa0ad6a73dfdbd4efc239",
+      "date": "2025-04-16T12:03:55+00:00",
+      "message": "Remove watch_log_file"
+    },
+    {
+      "sha": "f8f88c9ba15df2ff41712bdf50d525491108f457",
+      "date": "2025-04-16T08:37:22+00:00",
+      "message": "Update master for stable/2025.1"
+    },
+    {
+      "sha": "f67547a94339f1fc97c5f06edcc6abcaa0bf7d07",
+      "date": "2025-04-05T13:23:30+00:00",
+      "message": "Bump Ubuntu version"
+    },
+    {
+      "sha": "385f7fc0f4313c1436c54740798e4e80355d0eee",
+      "date": "2025-03-31T05:50:16+00:00",
+      "message": "Prepare 2025.1 release"
+    },
+    {
+      "sha": "fa1c4754781e08259acfd098f0df282b57df03fd",
+      "date": "2025-03-14T04:05:11+00:00",
+      "message": "Add a rabbit_transient_queues_ttl and amqp_auto_delete params"
+    },
+    {
+      "sha": "197afbbf9941e5d48a99e462d8c9e18d5e83ae80",
+      "date": "2025-03-08T16:19:21+00:00",
+      "message": "Fix new lint errors"
+    },
+    {
+      "sha": "0b4cb4893a369461cba541fa51c34d7881237594",
+      "date": "2025-02-25T00:50:12+00:00",
+      "message": "Add support for [image_format] require_image_format_match"
+    },
+    {
+      "sha": "a1a95cceb45822a33090d4afed52bdc8d3e6f34a",
+      "date": "2025-02-20T00:49:08+00:00",
+      "message": "Fix assertion of heartbeat_in_pthread parameter"
+    },
+    {
+      "sha": "cc87de76eaa30b06db263dc60f26b05637640e9b",
+      "date": "2025-02-18T16:47:55+00:00",
+      "message": "Merge \"Deprecate support for [oslo_messaging_rabbit] heartbeat_in_pthread\""
+    },
+    {
+      "sha": "d53b8f8eca9d676fd1e315f993276f2fcd615046",
+      "date": "2025-02-18T02:55:02+00:00",
+      "message": "Deprecate support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "745ace1783d31fe679746df3346e8429fae12f2f",
+      "date": "2025-02-17T17:01:20+00:00",
+      "message": "Stop using absolute names for defined resource types"
+    },
+    {
+      "sha": "0eeb4ef43928c46cf7add6954f61167f0a59a570",
+      "date": "2025-02-14T15:41:04+00:00",
+      "message": "Merge \"Mark puppet 8 supported\""
+    },
+    {
+      "sha": "09a14f0ef34d4be198359637a734f4286303bf69",
+      "date": "2025-02-14T13:45:57+00:00",
+      "message": "Mark puppet 8 supported"
+    },
+    {
+      "sha": "bfd083975412b3e54eb138031d2fbf199078f5fe",
+      "date": "2025-01-23T16:06:15+00:00",
+      "message": "reno: Update master for unmaintained/2023.1"
+    },
+    {
+      "sha": "71f0a2146c2189448844a17ad1b3053c8974a2da",
+      "date": "2025-01-03T08:36:18+00:00",
+      "message": "add access_log_env_var parameter to glance::wsgi::apache"
+    },
+    {
+      "sha": "7485fcb401ad59c4523b4f5d79dd1f2f0e49dfd6",
+      "date": "2024-12-10T09:06:50+00:00",
+      "message": "limit: Add default service_name/type"
+    },
+    {
+      "sha": "6dd07c0f91892b1722e9bb665dabac82d887fdb4",
+      "date": "2024-11-23T11:39:57+00:00",
+      "message": "api: Remove deprecated pipeline parameter"
+    },
+    {
+      "sha": "ecdb37958bc4a1af05aefc86788d4a0f3e9fbdfa",
+      "date": "2024-11-14T05:08:20+00:00",
+      "message": "Drop remaining logic of VMWare backend"
+    },
+    {
+      "sha": "a13b64fcdf1d514ebd7e7f63b146afa484258074",
+      "date": "2024-11-14T05:05:14+00:00",
+      "message": "Allow s3 backend"
+    },
+    {
+      "sha": "585676dfc0b5194c954bb5ca7a2d10bd9ca36e5e",
+      "date": "2024-10-14T15:30:02+00:00",
+      "message": "Merge \"Support new oslo.limit options to query endpoint\""
+    },
+    {
+      "sha": "1e57638700cde68f1fe94552865ecca75eead119",
+      "date": "2024-10-11T16:21:22+00:00",
+      "message": "Expose configure_service"
+    },
+    {
+      "sha": "fa4a2b432fa3da02a7ecc87ef49400ebd91d418c",
+      "date": "2024-10-11T15:54:10+00:00",
+      "message": "Support new oslo.limit options to query endpoint"
+    },
+    {
+      "sha": "579d10a062b77f044855fd0a524b11e6d2ecc3aa",
+      "date": "2024-10-09T05:12:07+00:00",
+      "message": "Use common function to parse python dict"
+    },
+    {
+      "sha": "576707bee707bb701dd20c7a3be700a030ee3286",
+      "date": "2024-10-08T14:17:36+00:00",
+      "message": "Merge \"Use only Hash value for properties\""
+    },
+    {
+      "sha": "9ae6b0b7d8213622d4e5c3222c3f70e100047333",
+      "date": "2024-10-08T02:27:07+00:00",
+      "message": "Use only Hash value for properties"
+    },
+    {
+      "sha": "07d91b2544d9fc7d1aca23b36c1c49d9c287a614",
+      "date": "2024-10-07T16:20:34+00:00",
+      "message": "Merge \"Drop compatibility with openstackclient < 4.0.0\""
+    },
+    {
+      "sha": "28da1b742dc246b9b8ffcb467319f21e1d34769c",
+      "date": "2024-10-07T04:21:07+00:00",
+      "message": "Drop compatibility with openstackclient < 4.0.0"
+    },
+    {
+      "sha": "c84627b94f05eeabb2e0f18dcfb9725a4f12cc1f",
+      "date": "2024-10-07T03:45:02+00:00",
+      "message": "Remove support for VMWare Datastore store driver"
+    },
+    {
+      "sha": "67dea3ea84210bd92d1237433486d29878229e56",
+      "date": "2024-10-04T10:38:37+00:00",
+      "message": "Update master for stable/2024.2"
+    },
+    {
+      "sha": "4014784b53838fb0403ca98256b5d83fddf73abd",
+      "date": "2024-10-02T01:27:52+00:00",
+      "message": "Prepare 2024.2 release"
+    },
+    {
+      "sha": "82101d5acb805625f25dfd8c083f32cce76c138e",
+      "date": "2024-09-30T05:51:16+00:00",
+      "message": "Use consistent format for oslo_messaging_notifications options"
+    },
+    {
+      "sha": "72234d6eb963686be8e397bbbb50347d45df19c0",
+      "date": "2024-09-29T09:29:53+00:00",
+      "message": "Expose parameter to customize [oslo_messaging_notifications] retry"
+    },
+    {
+      "sha": "e80abd168d4dc1e297bee499dbda411b29df6658",
+      "date": "2024-09-25T20:09:34+00:00",
+      "message": "Merge \"Add support for [oslo_messaging_rabbit] enable_cancel_on_failover\""
+    },
+    {
+      "sha": "67f442f7d90adbfd3723c7c071b1cf283a6d9132",
+      "date": "2024-09-25T13:03:00+00:00",
+      "message": "Add support for [oslo_messaging_rabbit] enable_cancel_on_failover"
+    },
+    {
+      "sha": "cf14507e93dc0af0a9caf206c2f1a2b643ebea79",
+      "date": "2024-09-24T17:24:55+00:00",
+      "message": "Support new os-brick options"
+    },
+    {
+      "sha": "8c04f753a80f8c997a5523145eadad7150da1750",
+      "date": "2024-09-24T17:24:52+00:00",
+      "message": "Support [os_brick] lock_path"
+    },
+    {
+      "sha": "c29243ded4042df292deb1d1d0488a2e6524fb38",
+      "date": "2024-09-22T03:30:38+00:00",
+      "message": "logging: Deprecate watch_log_file"
+    },
+    {
+      "sha": "711abd750a1f603d382a7b9b396b096ff9d61bd7",
+      "date": "2024-09-16T14:56:29+00:00",
+      "message": "Add validations for keystone resource parameters"
+    },
+    {
+      "sha": "48a090268ff1b974214edc43676bca33ee0e17e8",
+      "date": "2024-09-13T02:29:13+00:00",
+      "message": "Expose rabbit_qos_prefetch_count"
+    },
+    {
+      "sha": "35679d7a1178118382c3384d9978911e296f7370",
+      "date": "2024-09-09T09:11:17+00:00",
+      "message": "Add support for [DEFAULT] hashing_algorithm"
+    },
+    {
+      "sha": "327a750722f4a3f93a1be7477763861cf752b5e0",
+      "date": "2024-08-16T13:50:35+00:00",
+      "message": "Merge \"Add support for [import_filtering_opts] options\""
+    },
+    {
+      "sha": "3fa6e4441d2fa8068ea69bc8f4e2c8edb75d1d96",
+      "date": "2024-08-16T05:58:20+00:00",
+      "message": "Add support for [import_filtering_opts] options"
+    },
+    {
+      "sha": "eb899c38b8cf1664394ce6f5b48bb8d506406c02",
+      "date": "2024-08-15T01:48:00+00:00",
+      "message": "Remove support for [DEFAULT] location_strategy"
+    },
+    {
+      "sha": "6767388dce47f3bc15b800f49424076d9b2f4ae0",
+      "date": "2024-08-05T08:47:12+00:00",
+      "message": "Merge \"glance_image: Drop broken location parameter\""
+    },
+    {
+      "sha": "5d69cd44e6d13ecb9834b95ba0f343d50044a984",
+      "date": "2024-08-01T14:22:53+00:00",
+      "message": "glance_image: Drop broken location parameter"
+    },
+    {
+      "sha": "8622b5756701ee37a7431eb858693d36b2554678",
+      "date": "2024-08-01T14:04:48+00:00",
+      "message": "glance_image: Exclude locations, not location"
+    },
+    {
+      "sha": "81e6d857b67f07931d379bd024b5fb192685852d",
+      "date": "2024-07-29T17:32:33+00:00",
+      "message": "glance_image: Exclude location property"
+    },
+    {
+      "sha": "24c2d603bc46edd17d48a2ea08b0b1d5773c3cd5",
+      "date": "2024-07-23T10:10:30+00:00",
+      "message": "Add support for [healthcheck] enable_by_file_paths"
+    },
+    {
+      "sha": "8cc7c22dde94342325211f5c4b29126e532f09a4",
+      "date": "2024-05-10T09:15:39+00:00",
+      "message": "reno: Update master for unmaintained/zed"
+    },
+    {
+      "sha": "962b7474b0043dd969523ef86d7cc8c48d0755cd",
+      "date": "2024-04-23T09:14:49+00:00",
+      "message": "Remove unnecessary openstacklib::policy resource tag"
+    },
+    {
+      "sha": "9232855977c8a37225962f3fa0955374d7af268a",
+      "date": "2024-04-18T10:44:39+00:00",
+      "message": "Update master for stable/2024.1"
+    },
+    {
+      "sha": "f24bb0f7f21eb499d5f0e125ff0788ff24e8a26e",
+      "date": "2024-04-15T13:25:37+00:00",
+      "message": "Prepare 2024.1 release"
+    },
+    {
+      "sha": "e4411de3c52353fcba9dc8be94d15397ec40fde1",
+      "date": "2024-04-12T13:02:31+00:00",
+      "message": "Merge \"reno: Update master for unmaintained/xena\""
+    },
+    {
+      "sha": "7a57d48cdae92ec089f97a277595a401c444e346",
+      "date": "2024-04-12T12:31:15+00:00",
+      "message": "reno: Update master for unmaintained/xena"
+    },
+    {
+      "sha": "0f21d05c728437e68b8d203beca1ea59b99d0a47",
+      "date": "2024-04-12T12:22:53+00:00",
+      "message": "reno: Update master for unmaintained/wallaby"
+    },
+    {
+      "sha": "0791fbb26c5bcba620c6f34fb1c3f192ce28c9e1",
+      "date": "2024-04-08T07:44:42+00:00",
+      "message": "validate maxdelay for cron job"
+    },
+    {
+      "sha": "58bb9cac0b48012868e6718a7788e576022c69e7",
+      "date": "2024-03-14T18:07:50+00:00",
+      "message": "Merge \"Expose rabbit_transient_quorum_queue\""
+    },
+    {
+      "sha": "953143d0b75eb6b0e996c511bd907c07cd146ace",
+      "date": "2024-03-14T00:25:42+00:00",
+      "message": "Expose rabbit_transient_quorum_queue"
+    },
+    {
+      "sha": "fb29ff5f38de801438df46949fdd6680ef815f19",
+      "date": "2024-03-08T14:52:02+00:00",
+      "message": "Deprecate support for VMWare Datastore store driver"
+    },
+    {
+      "sha": "62956170073e866b6822592ca5e4cb7cb7f917df",
+      "date": "2024-03-08T04:44:28+00:00",
+      "message": "Merge \"Validate cache cron jobs\""
+    },
+    {
+      "sha": "6966c7de68932f7cd86f84469344d0f8b99cf35b",
+      "date": "2024-03-07T18:03:40+00:00",
+      "message": "Merge \"Add support for image_cache_driver option\""
+    },
+    {
+      "sha": "8e4ccdfe04497b265e6cbc3a605e82b6a616e285",
+      "date": "2024-03-05T03:50:52+00:00",
+      "message": "Merge \"Refactor resource dependencies\""
+    },
+    {
+      "sha": "664f39dc341672ebdb554725942e43db1cd65cdd",
+      "date": "2024-03-05T03:38:18+00:00",
+      "message": "Validate cache cron jobs"
+    },
+    {
+      "sha": "e12c8754d2b25091fe2eb32d9bff5dba0235342c",
+      "date": "2024-03-05T02:24:37+00:00",
+      "message": "Add support for image_cache_driver option"
+    },
+    {
+      "sha": "8b3054a13f6af070d627a019c9e1fd996fd1fd6a",
+      "date": "2024-03-04T00:49:06+00:00",
+      "message": "Refactor resource dependencies"
+    },
+    {
+      "sha": "f554f00d12b641456b67c7881f4010abf836330a",
+      "date": "2024-02-29T09:36:06+00:00",
+      "message": "Merge \"Deprecate support for delayed_delete option\""
+    },
+    {
+      "sha": "6b44259135f5a0a4a273a8903520ec999c73ab0f",
+      "date": "2024-02-27T00:05:50+00:00",
+      "message": "Deprecate support for delayed_delete option"
+    },
+    {
+      "sha": "b04c92029a1ff1273c1a0c558a8ad779655c1667",
+      "date": "2024-02-26T02:00:23+00:00",
+      "message": "Merge \"healthcheck: Expose ignore_proxied_requests parameter\""
+    },
+    {
+      "sha": "ff0dae837e9344bb182289a9ee539544a3463ae8",
+      "date": "2024-02-25T16:25:04+00:00",
+      "message": "healthcheck: Expose ignore_proxied_requests parameter"
+    },
+    {
+      "sha": "a57ea001927d6de4ef902fda298322b6b42a555f",
+      "date": "2024-02-21T16:44:51+00:00",
+      "message": "reno: Update master for unmaintained/yoga"
+    },
+    {
+      "sha": "0dcda53bb3bf30d0cc5ddc0df916d83ed26f92d7",
+      "date": "2024-02-17T01:05:17+00:00",
+      "message": "Merge \"Deprecate support for [DEFAULT] location_strategy\""
+    },
+    {
+      "sha": "9d3a285e19ee7a2d07c561f38faf5fff45b933e0",
+      "date": "2024-01-29T15:39:04+00:00",
+      "message": "Add support for oslo.reports options"
+    },
+    {
+      "sha": "c9e79c84cb04f4ad796fcd2c068d2e0b762a6500",
+      "date": "2024-01-23T08:24:28+00:00",
+      "message": "Deprecate support for [DEFAULT] location_strategy"
+    },
+    {
+      "sha": "be0ca56798db6c8135c46dfe7e5929814ca8b0de",
+      "date": "2024-01-22T17:08:09+00:00",
+      "message": "Merge \"rbd: Update description of rados_connect_timeout\""
+    },
+    {
+      "sha": "47690b57c22b7771ce6568c46ba3885d4ec3c5d5",
+      "date": "2024-01-19T15:02:50+00:00",
+      "message": "rbd: Update description of rados_connect_timeout"
+    },
+    {
+      "sha": "23d579d51549c8e98e2be20c036fad3021c294c3",
+      "date": "2024-01-17T16:13:21+00:00",
+      "message": "Merge \"healthcheck: Expose allowed_source_ranges\""
+    },
+    {
+      "sha": "00c8714ccd0ad6d7e932b4a2ad18ffd7bde2e288",
+      "date": "2024-01-16T17:56:42+00:00",
+      "message": "healthcheck: Expose allowed_source_ranges"
+    },
+    {
+      "sha": "4a3666c103eba2844170befc1464c49542a0979c",
+      "date": "2024-01-09T06:06:07+00:00",
+      "message": "Merge \"Support image property protections configuration\""
+    },
+    {
+      "sha": "d1401c48adaf649ed62fde203e1988931a43d37f",
+      "date": "2024-01-03T02:05:00+00:00",
+      "message": "Support image property protections configuration"
+    },
+    {
+      "sha": "daf01a83baa78e2e1608d11c701c977611826ebc",
+      "date": "2023-12-24T08:13:24+00:00",
+      "message": "Merge \"Fix wrong config file name described in type description\""
+    },
+    {
+      "sha": "cf093864783a03cc837c6539f0253181b3a91b0c",
+      "date": "2023-12-24T04:12:01+00:00",
+      "message": "Fix wrong config file name described in type description"
+    },
+    {
+      "sha": "e57897e8436b2c33fe99d14c24208c05ac630fdc",
+      "date": "2023-11-27T10:20:18+00:00",
+      "message": "Merge \"glance_image: Enforce correct type for properties\""
+    },
+    {
+      "sha": "89513a4d617508c9012e70f1eff56146915a6e5f",
+      "date": "2023-11-25T17:26:10+00:00",
+      "message": "glance_image: Enforce correct type for properties"
+    },
+    {
+      "sha": "6c161ee7f8f0a4279a22ab708313edc21a25ce15",
+      "date": "2023-11-19T15:38:34+00:00",
+      "message": "Use new openstackclient tag"
+    },
+    {
+      "sha": "0c4ecf7f2c1061d7ca3d74abb05d7ed9195d9427",
+      "date": "2023-11-18T09:09:55+00:00",
+      "message": "Bump supported Debian version to 12 (Bookworm)"
+    },
+    {
+      "sha": "120b9a0739ab4a4fb5309505c7a5494780b40314",
+      "date": "2023-11-17T19:05:28+00:00",
+      "message": "Merge \"Stop reading keystone_authtoken options\""
+    },
+    {
+      "sha": "50e67be163244f128b1ff08d3b051b0539fc16b7",
+      "date": "2023-11-16T06:26:30+00:00",
+      "message": "Stop reading keystone_authtoken options"
+    },
+    {
+      "sha": "7452a379502b666f1b778d48fbd07bbf2fde0928",
+      "date": "2023-10-16T15:16:12+00:00",
+      "message": "Update master for stable/2023.2"
+    },
+    {
+      "sha": "1317af56d4f4700e4300024e5344c8b0ac780eeb",
+      "date": "2023-10-11T02:59:09+00:00",
+      "message": "Remove usage of deleted manifest_dir"
+    },
+    {
+      "sha": "730bf272566f090abcafae078d4d5c8292c8be3d",
+      "date": "2023-10-03T17:14:51+00:00",
+      "message": "Merge \"Prepare 2023.2 release\""
+    },
+    {
+      "sha": "2b45ba0a529e1018dc026769d593b69f3f5ba0ee",
+      "date": "2023-10-03T08:02:29+00:00",
+      "message": "Prepare 2023.2 release"
+    },
+    {
+      "sha": "cb71609368bff436a68f4312f9994e22cff82744",
+      "date": "2023-10-03T04:08:21+00:00",
+      "message": "Bump upper version of stdlib"
+    }
+  ],
+  "openstack/puppet-cinder": [
+    {
+      "sha": "b1464bb83b03fbfc95d017ddb3e564f1df0fda2c",
+      "date": "2025-09-29T15:36:22+00:00",
+      "message": "Merge \"Refactor api service management\""
+    },
+    {
+      "sha": "1856384e07e378e5ed38a3e4953f89ae1bc5c805",
+      "date": "2025-09-27T14:47:54+00:00",
+      "message": "Import base parameter types for ::policy"
+    },
+    {
+      "sha": "a54de2bb6fbeec4748ab9692fdedc12ffccf83b5",
+      "date": "2025-09-26T22:13:05+00:00",
+      "message": "Refactor api service management"
+    },
+    {
+      "sha": "b724080f0b74dd02e5c0f653441bf417cba81329",
+      "date": "2025-09-23T13:59:04+00:00",
+      "message": "Merge \"Validate ensure parameter for package resources\""
+    },
+    {
+      "sha": "20ceacaa5129996db39d621778925a4ac58f7cac",
+      "date": "2025-09-23T08:16:33+00:00",
+      "message": "Validate ensure parameter for package resources"
+    },
+    {
+      "sha": "597e0d965b745be2579dcf2ff406a1e5e3dea2fe",
+      "date": "2025-09-22T11:55:02+00:00",
+      "message": "metadata.json: Support Debian 13"
+    },
+    {
+      "sha": "0b65e1bf37d3bd7bef0c66fff59e966dcc0be070",
+      "date": "2025-09-17T15:52:44+00:00",
+      "message": "Fix missing session options for Barbican key manager"
+    },
+    {
+      "sha": "6bb100672816c1120dd3b5d3ca3100c876c999cc",
+      "date": "2025-09-15T20:16:57+00:00",
+      "message": "Merge \"Add support for [DEFAULT] backup_swift_block_size\""
+    },
+    {
+      "sha": "f762a5f4e21f6ccddcfe489bf871656050a99a71",
+      "date": "2025-09-14T12:52:47+00:00",
+      "message": "Add support for [DEFAULT] backup_swift_block_size"
+    },
+    {
+      "sha": "20710186baa40d5d5b42ff1c483da33afae1dc97",
+      "date": "2025-09-14T11:33:33+00:00",
+      "message": "Use common default value for auth_url"
+    },
+    {
+      "sha": "b48d97c26fa236213877069909193d480e5d5d1a",
+      "date": "2025-09-05T13:19:42+00:00",
+      "message": "Merge \"Extend support for gpfs volume driver\""
+    },
+    {
+      "sha": "6df226460ed4d518b71bbdb3e45b29532749cb38",
+      "date": "2025-09-04T05:37:07+00:00",
+      "message": "Extend support for gpfs volume driver"
+    },
+    {
+      "sha": "1e4afc61fb6e0ad6cc80aaa651c7468250a90061",
+      "date": "2025-09-03T01:36:06+00:00",
+      "message": "Remove support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "706e74c72687d5cdf2d16675b83981e965624d0a",
+      "date": "2025-08-23T05:45:39+00:00",
+      "message": "Merge \"Prepare for voxpupuli-puppet-lint-plugins\""
+    },
+    {
+      "sha": "1b86dc1741750c6aab8b799f9f337a772d789315",
+      "date": "2025-08-20T12:22:23+00:00",
+      "message": "Replace wsgi script"
+    },
+    {
+      "sha": "ca1221d2d2876a61e4856c1ce99b4c67b1de1370",
+      "date": "2025-08-20T01:01:51+00:00",
+      "message": "Prepare for voxpupuli-puppet-lint-plugins"
+    },
+    {
+      "sha": "acaefa8c40f21885227ebe786f6385ef59a7fee8",
+      "date": "2025-08-19T01:37:26+00:00",
+      "message": "Merge \"Remove puppet 7 support\""
+    },
+    {
+      "sha": "4604d1bc1aca0e513c1e0052e1bfe3ab97d6a2fa",
+      "date": "2025-08-18T16:04:30+00:00",
+      "message": "Remove puppet 7 support"
+    },
+    {
+      "sha": "1cd90a402c6352db29f9e60ccc03f17faca802ee",
+      "date": "2025-08-15T11:19:39+00:00",
+      "message": "Prepare for new lint plugins"
+    },
+    {
+      "sha": "514fe5ce2604bfde59d666ca46a2e27c6527021f",
+      "date": "2025-08-14T09:23:21+00:00",
+      "message": "Switch to namespace sdtlib functions"
+    },
+    {
+      "sha": "a1bfb682db5276d4f86ef7760f1b8a754016c50c",
+      "date": "2025-06-20T21:36:24+00:00",
+      "message": "Add queue_manager and stream_fanout"
+    },
+    {
+      "sha": "d27923d9c08c077291ef2a6631b7050e3512135c",
+      "date": "2025-04-21T15:38:23+00:00",
+      "message": "Merge \"Remove support for [nova] auth_section\""
+    },
+    {
+      "sha": "0c450e9f3d25344e43555900fb252e52563e2632",
+      "date": "2025-04-21T15:38:21+00:00",
+      "message": "Merge \"Remove management of cinder v3 user\""
+    },
+    {
+      "sha": "120a71a8ed7d71a6cb0c16daff5ff21a9d35c8cd",
+      "date": "2025-04-18T09:51:16+00:00",
+      "message": "Remove support for [nova] auth_section"
+    },
+    {
+      "sha": "65e489c08e6902b009f6399a22d95bf5664d3819",
+      "date": "2025-04-17T14:35:30+00:00",
+      "message": "Remove management of cinder v3 user"
+    },
+    {
+      "sha": "0bf6569c1137c10f10f30c918a15e765fecab740",
+      "date": "2025-04-17T13:54:49+00:00",
+      "message": "Stop purging an option with typo"
+    },
+    {
+      "sha": "0dd0973d44b8b1beb00fceb57c82e4c0d34b319b",
+      "date": "2025-04-16T11:47:11+00:00",
+      "message": "Remove watch_log_file"
+    },
+    {
+      "sha": "11919f87fe05cd3e2a4fb8aa5ecac47130b20fd4",
+      "date": "2025-04-16T08:36:28+00:00",
+      "message": "Update master for stable/2025.1"
+    },
+    {
+      "sha": "feb86c9eb805db083aa22b9f7a3057521e896c7b",
+      "date": "2025-04-05T13:22:22+00:00",
+      "message": "Bump Ubuntu version"
+    },
+    {
+      "sha": "e52a8c7c0ecedab1347c2494c6cbc8ccfdc42744",
+      "date": "2025-03-31T05:48:51+00:00",
+      "message": "Prepare 2025.1 release"
+    },
+    {
+      "sha": "7a9f9abc96fa285d7ee5152743b4987bfcdf4f9c",
+      "date": "2025-03-14T04:05:39+00:00",
+      "message": "Add a rabbit_transient_queues_ttl and amqp_auto_delete params"
+    },
+    {
+      "sha": "2fe578de0e399bc2542495cb8611b2ff351249d7",
+      "date": "2025-03-08T16:15:24+00:00",
+      "message": "Fix new lint errors"
+    },
+    {
+      "sha": "296b623fc3e42fac21053cd78946d06cd829a4e6",
+      "date": "2025-03-03T01:28:39+00:00",
+      "message": "Ensure nfs client is installed when nfs backup driver is used"
+    },
+    {
+      "sha": "75e727dea80289c36f37731db7e24270648f5438",
+      "date": "2025-03-03T00:53:26+00:00",
+      "message": "nfs: Ensure nfs client is installed"
+    },
+    {
+      "sha": "b5cbc9947b20b07ebb6be80e6eda92014fd499e5",
+      "date": "2025-03-01T09:53:02+00:00",
+      "message": "Merge \"hpe3par: Replace redundant hard-coded default values\""
+    },
+    {
+      "sha": "d11bd5c6073ccfe4167f589931050262cc3e0854",
+      "date": "2025-03-01T06:00:35+00:00",
+      "message": "Merge \"hpe3par: Fix wrong option name\""
+    },
+    {
+      "sha": "9ed3e92e437b212423b5f9b35c6249e8974531c0",
+      "date": "2025-02-28T05:24:19+00:00",
+      "message": "Merge \"Deprecate support for bare SAN driver\""
+    },
+    {
+      "sha": "891810a0bd0a68011cc3ccb95c8a45bb537cc9c3",
+      "date": "2025-02-26T16:14:45+00:00",
+      "message": "Deprecate support for bare SAN driver"
+    },
+    {
+      "sha": "f9fa1f2e7e458e637ff13dc1b366025c6780ffc1",
+      "date": "2025-02-26T09:53:40+00:00",
+      "message": "hpe3par: Support an array value for hpe3par_iscsi_ips"
+    },
+    {
+      "sha": "6e182455e79dd53fde1955e58a7de6a3e1a6631a",
+      "date": "2025-02-26T07:55:35+00:00",
+      "message": "hpe3par: Replace redundant hard-coded default values"
+    },
+    {
+      "sha": "918d9c562a117c0f38c04f4830cb49085f2b9e63",
+      "date": "2025-02-26T07:55:35+00:00",
+      "message": "hpe3par: Fix wrong option name"
+    },
+    {
+      "sha": "86c69f460a40c179647332886583cda3b8313ac6",
+      "date": "2025-02-20T00:47:56+00:00",
+      "message": "Fix assertion of heartbeat_in_pthread parameter"
+    },
+    {
+      "sha": "8f1b5be08f4c296a90e850d69cfeda4cf9982777",
+      "date": "2025-02-18T16:55:11+00:00",
+      "message": "Merge \"Deprecate support for [oslo_messaging_rabbit] heartbeat_in_pthread\""
+    },
+    {
+      "sha": "4ba187b1b14008526b8d372f66dc3c17740c765c",
+      "date": "2025-02-18T02:54:06+00:00",
+      "message": "Deprecate support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "ca3058e49c9ebc1769ff32ffa73a28bd6d3a0a9e",
+      "date": "2025-02-17T16:56:58+00:00",
+      "message": "Stop using absolute names for defined resource types"
+    },
+    {
+      "sha": "ef9eb055969170be387340870b9fe923947e7130",
+      "date": "2025-02-14T15:42:54+00:00",
+      "message": "Merge \"Mark puppet 8 supported\""
+    },
+    {
+      "sha": "f69f64faaabf5fe082d82aa630a9cd96ef760c68",
+      "date": "2025-02-14T13:44:50+00:00",
+      "message": "Mark puppet 8 supported"
+    },
+    {
+      "sha": "39d960e684181399cf276f2bbf39010d5a6f9338",
+      "date": "2025-02-06T01:28:57+00:00",
+      "message": "Merge \"Add support for [DEFAULT] backup_ceph_max_snapshots\""
+    },
+    {
+      "sha": "da15f343acf78f73e6e62edeaac17918dd724c14",
+      "date": "2025-02-05T14:58:47+00:00",
+      "message": "Add support for [DEFAULT] backup_ceph_max_snapshots"
+    },
+    {
+      "sha": "f70fd1808b8fc02b6a05a58389ded7e91f0e40c7",
+      "date": "2025-01-23T16:05:31+00:00",
+      "message": "reno: Update master for unmaintained/2023.1"
+    },
+    {
+      "sha": "ad2871753293f0029132b7895151b45adc214fc5",
+      "date": "2025-01-20T15:24:14+00:00",
+      "message": "Merge \"Deprecate support for Quobyte driver\""
+    },
+    {
+      "sha": "dbe0a7fad655c32fde2334198d5e7ad34977a67e",
+      "date": "2025-01-20T15:24:13+00:00",
+      "message": "Merge \"Deprecate support for VZStorage driver\""
+    },
+    {
+      "sha": "0c37c7078e497ee3349dbd0230f6c1a1d7bcf401",
+      "date": "2025-01-20T02:21:27+00:00",
+      "message": "PowerMax: Do not install unused pywbem"
+    },
+    {
+      "sha": "1cc08543b4b4c7cfa49cf08669d2a97627225859",
+      "date": "2025-01-20T02:21:11+00:00",
+      "message": "Deprecate support for Quobyte driver"
+    },
+    {
+      "sha": "638863393ca3e5dd14df78d078562803632b2d29",
+      "date": "2025-01-20T01:09:35+00:00",
+      "message": "Deprecate support for VZStorage driver"
+    },
+    {
+      "sha": "1b1571aac5abadff86edcf008f7f4d4772fb8639",
+      "date": "2025-01-15T09:39:11+00:00",
+      "message": "Merge \"Support more scheduler options\""
+    },
+    {
+      "sha": "242d08bf4dca76c94c77c4799d8b060a1d21d8f4",
+      "date": "2025-01-15T03:07:44+00:00",
+      "message": "Support more scheduler options"
+    },
+    {
+      "sha": "c898b273d838e4517370271e62c248f63cc9f313",
+      "date": "2025-01-13T15:17:42+00:00",
+      "message": "Merge \"Allow adding ceph-common package\""
+    },
+    {
+      "sha": "989dc3bf7eb9adfe8ae48aa79601966aed3f3c95",
+      "date": "2025-01-11T03:15:18+00:00",
+      "message": "Allow adding ceph-common package"
+    },
+    {
+      "sha": "608ad3bc5018b35b9fcb35c01d1bc1d4e78880b7",
+      "date": "2025-01-10T15:47:15+00:00",
+      "message": "Drop unused parameter"
+    },
+    {
+      "sha": "a45143dd47f0881d7092770159d3735a3a0ced0f",
+      "date": "2024-10-23T13:36:41+00:00",
+      "message": "add access_log_env_var parameter to cinder::wsgi::apache"
+    },
+    {
+      "sha": "8dc51aaf6f9fb1e093c20c42589dcb1e45c7fe4b",
+      "date": "2024-10-10T16:19:45+00:00",
+      "message": "Merge \"Deploy block-storage service type\""
+    },
+    {
+      "sha": "896219345310a41b2d6c5df74889ce347c9f5b81",
+      "date": "2024-10-10T15:08:21+00:00",
+      "message": "Merge \"Test cinder_qos in acceptance tests\""
+    },
+    {
+      "sha": "c9c0931628e72e71e551a96d0993101671918791",
+      "date": "2024-10-10T12:51:43+00:00",
+      "message": "Merge \"cinder_qos: Autorequire associated volume type\""
+    },
+    {
+      "sha": "9458f6c595f85402abd99ad0842d31f8769e3c40",
+      "date": "2024-10-09T15:42:36+00:00",
+      "message": "Merge \"cinder_qos: Fix parsing of associations field\""
+    },
+    {
+      "sha": "b0957ff6a689c6cd7b000659adadb56f27ea958b",
+      "date": "2024-10-09T15:18:21+00:00",
+      "message": "Deploy block-storage service type"
+    },
+    {
+      "sha": "a564178f179de3045c14fa6c222a23ee3224af9b",
+      "date": "2024-10-09T14:43:43+00:00",
+      "message": "Test cinder_qos in acceptance tests"
+    },
+    {
+      "sha": "7de59ded2d8c3a9b77180ca9641a8b84beadad56",
+      "date": "2024-10-09T12:24:23+00:00",
+      "message": "cinder_qos: Autorequire associated volume type"
+    },
+    {
+      "sha": "adc675c44a3f2ae8a5f4f68f96f85271e7ddeafc",
+      "date": "2024-10-09T11:47:42+00:00",
+      "message": "cinder_qos: Fix parsing of associations field"
+    },
+    {
+      "sha": "2dcade343901f2a248bb26e9826f85226f2a3b08",
+      "date": "2024-10-09T09:49:05+00:00",
+      "message": "Use common function to parse python dict"
+    },
+    {
+      "sha": "bb1eba7195fe9bbc775cf712486b086ed4a4c8cc",
+      "date": "2024-10-08T02:25:37+00:00",
+      "message": "Use Hash values for properties"
+    },
+    {
+      "sha": "6df0ae9222c6a3cf9348c39b8e2021916705285e",
+      "date": "2024-10-07T16:35:27+00:00",
+      "message": "Merge \"cinder_qos: Remove stale associations\""
+    },
+    {
+      "sha": "0c9fc8ea94de33fd60605c30e261348bb8b1753b",
+      "date": "2024-10-07T16:35:26+00:00",
+      "message": "Merge \"Drop compatibility with openstackclient < 4.0.0\""
+    },
+    {
+      "sha": "31ff57d36e9a901f2d334a13a3e1e310fb018794",
+      "date": "2024-10-07T16:01:19+00:00",
+      "message": "Merge \"cinder_qos: Handle python dict for properties\""
+    },
+    {
+      "sha": "2cbff6f231aff8869435571aebd823b25ae81b03",
+      "date": "2024-10-07T16:01:17+00:00",
+      "message": "Merge \"Remove support for VMWare storage driver\""
+    },
+    {
+      "sha": "87045a24035da8f53d7f4955276f2d0db5281baa",
+      "date": "2024-10-07T16:01:16+00:00",
+      "message": "Merge \"Use common defined resource type to manage ssl options\""
+    },
+    {
+      "sha": "727d0c182d09b6656826f3fc2720a2bfe1d09c8f",
+      "date": "2024-10-07T08:03:18+00:00",
+      "message": "cinder_qos: Remove stale associations"
+    },
+    {
+      "sha": "c23a7bedd2b0eb6e921ce635a3df459991123117",
+      "date": "2024-10-07T07:58:13+00:00",
+      "message": "Drop compatibility with openstackclient < 4.0.0"
+    },
+    {
+      "sha": "3fcf9d907f9fb9837b4dfd9c7db39e8bddbf7135",
+      "date": "2024-10-07T07:57:11+00:00",
+      "message": "cinder_qos: Handle python dict for properties"
+    },
+    {
+      "sha": "df9178d2f8f90fe9ae21bd319460252af16c8453",
+      "date": "2024-10-07T03:43:42+00:00",
+      "message": "Remove support for VMWare storage driver"
+    },
+    {
+      "sha": "4f6ebbd091ac1ab03234be02075c4d4c55987c3f",
+      "date": "2024-10-07T01:11:30+00:00",
+      "message": "Use common defined resource type to manage ssl options"
+    },
+    {
+      "sha": "630d6feca990b71e469da892eb6d931b3df715f1",
+      "date": "2024-10-05T11:37:56+00:00",
+      "message": "Simplify logic for *_availability_zone options"
+    },
+    {
+      "sha": "8744e3daa27cd43a93f0d8f7c1349d6292b7199b",
+      "date": "2024-10-04T10:37:38+00:00",
+      "message": "Update master for stable/2024.2"
+    },
+    {
+      "sha": "fcf3fd4699290b180440bc775a5daadd4e25fd2d",
+      "date": "2024-10-02T01:26:41+00:00",
+      "message": "Prepare 2024.2 release"
+    },
+    {
+      "sha": "df1f2fd7ff36e08a75be667bc347d9c3cc1dff3f",
+      "date": "2024-09-27T15:59:10+00:00",
+      "message": "Expose parameter to customize [oslo_messaging_notifications] retry"
+    },
+    {
+      "sha": "c23d71818be0041e71b149e9e41c777c61f8b66a",
+      "date": "2024-09-25T20:16:06+00:00",
+      "message": "Merge \"Add support for [oslo_messaging_rabbit] enable_cancel_on_failover\""
+    },
+    {
+      "sha": "35f8f8911610833212a485cceb5b01cd1945dbeb",
+      "date": "2024-09-25T10:21:59+00:00",
+      "message": "Add support for [oslo_messaging_rabbit] enable_cancel_on_failover"
+    },
+    {
+      "sha": "204a7f21d79c4806bde8176889dfaf757686f7d0",
+      "date": "2024-09-24T17:17:02+00:00",
+      "message": "Support new os-brick options"
+    },
+    {
+      "sha": "c716870fc9dbb1ad00f29c0d6b788c4a760c78a6",
+      "date": "2024-09-23T19:01:23+00:00",
+      "message": "Merge \"logging: Deprecate watch_log_file\""
+    },
+    {
+      "sha": "2e6f49c1feeceed31e03c4e86fb4f005b9c49d7b",
+      "date": "2024-09-22T05:32:28+00:00",
+      "message": "Require nova password"
+    },
+    {
+      "sha": "6e02ee902bb99fef5f86575483400b30e6ced4fe",
+      "date": "2024-09-22T03:30:28+00:00",
+      "message": "logging: Deprecate watch_log_file"
+    },
+    {
+      "sha": "7e0cc4f7d4b39ea37b925ec7f5b4b665c5629b07",
+      "date": "2024-09-18T13:32:44+00:00",
+      "message": "Expose configure_service"
+    },
+    {
+      "sha": "b897bfdcdb7341ae3073feefcb88da0765025808",
+      "date": "2024-09-16T15:31:46+00:00",
+      "message": "Deprecate management of cinder v3 user"
+    },
+    {
+      "sha": "ff0b4435f47fcfc56b368d270a75174bbe403316",
+      "date": "2024-09-16T14:53:55+00:00",
+      "message": "Add validations for keystone resource parameters"
+    },
+    {
+      "sha": "8bf8355aed0f141bbd0e3ddfd300809ec573414a",
+      "date": "2024-09-13T02:24:40+00:00",
+      "message": "Expose rabbit_qos_prefetch_count"
+    },
+    {
+      "sha": "656c44f2dd9a0e0da7266dc61a6fc6732fe4ee46",
+      "date": "2024-07-21T11:31:14+00:00",
+      "message": "Add support for [healthcheck] enable_by_file_paths"
+    },
+    {
+      "sha": "9055ae436ae909493654b0177d3358c7a16e6b47",
+      "date": "2024-05-31T01:10:25+00:00",
+      "message": "Add manage_package to RBD backend"
+    },
+    {
+      "sha": "4c8f765f48bd6fd1836b417bdae58fabfbbf06b5",
+      "date": "2024-05-10T16:47:09+00:00",
+      "message": "Merge \"Remove support for amqp1 messaging driver\""
+    },
+    {
+      "sha": "890806ebfd7f85e40e8431b5a88517b90493a6be",
+      "date": "2024-05-10T09:13:19+00:00",
+      "message": "reno: Update master for unmaintained/zed"
+    },
+    {
+      "sha": "234b28c9b4d0d90d21fa843cbf5099fed71e2d89",
+      "date": "2024-05-09T23:04:47+00:00",
+      "message": "Remove support for amqp1 messaging driver"
+    },
+    {
+      "sha": "f85ffa66f0f217d2c46c7f7d4ffabf702cc6c259",
+      "date": "2024-04-18T10:43:48+00:00",
+      "message": "Update master for stable/2024.1"
+    },
+    {
+      "sha": "3d5bc08e7f12b6de2f23e9927cd1b016de0c0eb5",
+      "date": "2024-04-15T13:23:37+00:00",
+      "message": "Prepare 2024.1 release"
+    },
+    {
+      "sha": "2f65899851d7e7635c96616eb26d54ae86445014",
+      "date": "2024-04-12T13:08:33+00:00",
+      "message": "Merge \"reno: Update master for unmaintained/xena\""
+    },
+    {
+      "sha": "d91da66f65a42ede19925672c8d1e51419c21338",
+      "date": "2024-04-12T12:30:29+00:00",
+      "message": "reno: Update master for unmaintained/xena"
+    },
+    {
+      "sha": "cf779ed43ff8aeb6f51be189bcdd03d407a70d05",
+      "date": "2024-04-12T12:21:50+00:00",
+      "message": "reno: Update master for unmaintained/wallaby"
+    },
+    {
+      "sha": "20d3cfe08918d166b7e58322c3e54202584ce041",
+      "date": "2024-04-09T13:16:39+00:00",
+      "message": "Stop hardcoding defaults in cinder::backup::ceph"
+    },
+    {
+      "sha": "9a48929ec3a9c0026bccde8d863b71c732b3058d",
+      "date": "2024-04-08T21:50:04+00:00",
+      "message": "Merge \"validate maxdelay for cron job\""
+    },
+    {
+      "sha": "f3877ffa5c5e20d446bdf4811eb0b90636cdd491",
+      "date": "2024-04-08T07:41:31+00:00",
+      "message": "validate maxdelay for cron job"
+    },
+    {
+      "sha": "edca342afb75853fc058aacc131428857c8f5f09",
+      "date": "2024-04-04T02:17:03+00:00",
+      "message": "PowerFlex: Support new API timeout options"
+    },
+    {
+      "sha": "b18358aaaed9d0b931fe9200d7c6ec20b5feeb19",
+      "date": "2024-04-04T02:17:03+00:00",
+      "message": "PowerMax: Support new API timeout options"
+    },
+    {
+      "sha": "f81f6ad1d80af3b84ffebd7b050ee6898911912a",
+      "date": "2024-04-01T23:19:12+00:00",
+      "message": "Merge \"rbd: More strictly validate rbd_ceph_conf\""
+    },
+    {
+      "sha": "73638202a2b709a9a5c9cf21f9c9eb185bd9066d",
+      "date": "2024-04-01T23:09:18+00:00",
+      "message": "Merge \"rbd: Simplify handling of rbd_cluster_name\""
+    },
+    {
+      "sha": "0ee4b8938e76b568a48c5c6915e3940ea7b3c499",
+      "date": "2024-04-01T23:09:16+00:00",
+      "message": "Merge \"rbd: Purge rbd_cluster_name by default\""
+    },
+    {
+      "sha": "dbc6ec9ed6edee6bd0b256f14fb602e5afa6c5d5",
+      "date": "2024-03-29T00:03:47+00:00",
+      "message": "rbd: More strictly validate rbd_ceph_conf"
+    },
+    {
+      "sha": "bdc045dba61a2cc9b003b0ea5bf2ca1e72a04667",
+      "date": "2024-03-28T06:17:07+00:00",
+      "message": "rbd: Simplify handling of rbd_cluster_name"
+    },
+    {
+      "sha": "a17d67766d2b27edff66b43bfe0ba03d1359eb19",
+      "date": "2024-03-28T06:16:11+00:00",
+      "message": "rbd: Purge rbd_cluster_name by default"
+    },
+    {
+      "sha": "16ce7f1cce3bab16dbef51ca0fc1eebfa2606276",
+      "date": "2024-03-28T06:06:20+00:00",
+      "message": "Require enabled_backends"
+    },
+    {
+      "sha": "08052b3852819f4d93c5878fa117df9364841c63",
+      "date": "2024-03-17T07:36:49+00:00",
+      "message": "lvm driver: Support lvm_type option"
+    },
+    {
+      "sha": "777dcf40c766e52825a376604bbd5dfcded6697e",
+      "date": "2024-03-17T07:36:49+00:00",
+      "message": "Add max_over_subscription_ratio parameter"
+    },
+    {
+      "sha": "634b6152c185edc48b4bce6d38a68d6ee86afd9a",
+      "date": "2024-03-17T07:19:26+00:00",
+      "message": "nvmeof: Add reserved_percentage"
+    },
+    {
+      "sha": "af07a1a46b243f9e4b34296d430486702f37be94",
+      "date": "2024-03-15T10:04:52+00:00",
+      "message": "Merge \"Deprecate support for unsupported drivers\""
+    },
+    {
+      "sha": "503140c4a8ae0bef0c7b96b2838cc0d009ff7d19",
+      "date": "2024-03-14T18:31:57+00:00",
+      "message": "Merge \"Expose rabbit_transient_quorum_queue\""
+    },
+    {
+      "sha": "23634ccf2579def1cb28d87155fd6a203cc2c2f0",
+      "date": "2024-03-14T00:19:14+00:00",
+      "message": "Expose rabbit_transient_quorum_queue"
+    },
+    {
+      "sha": "ce0ee05b3aa804c8da5d8ace9f690221c94fe3ac",
+      "date": "2024-03-08T15:55:43+00:00",
+      "message": "Merge \"Deprecate support for VMWare storage driver\""
+    },
+    {
+      "sha": "fd66bd64465f36bc87ff17969e47c9a0b538bd16",
+      "date": "2024-03-08T05:57:08+00:00",
+      "message": "Deprecate support for VMWare storage driver"
+    },
+    {
+      "sha": "a5fb242e23e261c59c66c23ece81685658f8ce0f",
+      "date": "2024-03-04T00:43:14+00:00",
+      "message": "Refactor resource dependencies"
+    },
+    {
+      "sha": "24988ff24b73b2f65a62f6bcc1193647a03b3a6f",
+      "date": "2024-02-26T16:54:28+00:00",
+      "message": "Merge \"rbd: Stop overriding CEPH_ARGS environment\""
+    },
+    {
+      "sha": "94a7b021fb52d0694410493f9c81b0ce99b00475",
+      "date": "2024-02-26T00:57:30+00:00",
+      "message": "rbd: Stop overriding CEPH_ARGS environment"
+    },
+    {
+      "sha": "9f5d79a6c4dcc88dd7b9950dfa793b17e7b996e9",
+      "date": "2024-02-25T16:15:40+00:00",
+      "message": "healthcheck: Expose ignore_proxied_requests parameter"
+    },
+    {
+      "sha": "8bbd80d053e893f7989395e184e9543e8d74970b",
+      "date": "2024-02-21T16:43:41+00:00",
+      "message": "reno: Update master for unmaintained/yoga"
+    },
+    {
+      "sha": "281b8b0dafebc7511aa1610670f700ff30d49ad2",
+      "date": "2024-01-31T18:20:37+00:00",
+      "message": "Deprecate support for unsupported drivers"
+    },
+    {
+      "sha": "1cb3aa59c0590d6f02b629f9f414817717270f21",
+      "date": "2024-01-31T04:11:43+00:00",
+      "message": "Merge \"Add support for oslo.reports options\""
+    },
+    {
+      "sha": "93046343f8dc03e07a2b3120aa6d4a9e7ea80bdf",
+      "date": "2024-01-29T15:36:20+00:00",
+      "message": "Add support for oslo.reports options"
+    },
+    {
+      "sha": "14f630e986b48264a6f5759df2eafb399b7938fa",
+      "date": "2024-01-23T15:15:46+00:00",
+      "message": "Merge \"Drop redundant default of send_service_user_token\""
+    },
+    {
+      "sha": "ffdc85e1deb74e8c2f0931d03062b2a4a3d7025d",
+      "date": "2024-01-23T05:40:05+00:00",
+      "message": "Drop redundant default of send_service_user_token"
+    },
+    {
+      "sha": "3103c6c52d9015b372e9c05d780e40ac02954f2b",
+      "date": "2024-01-17T16:32:20+00:00",
+      "message": "Merge \"healthcheck: Expose allowed_source_ranges\""
+    },
+    {
+      "sha": "46e05c4a2bf81e67117f9a3846e75ec454579893",
+      "date": "2024-01-16T17:50:11+00:00",
+      "message": "healthcheck: Expose allowed_source_ranges"
+    },
+    {
+      "sha": "bc8624f9da5bf1d22758a829e0e1e998b340225d",
+      "date": "2024-01-16T16:07:59+00:00",
+      "message": "Merge \"rbd: Support rbd_concurrent_flatten_operations option\""
+    },
+    {
+      "sha": "cc5d5719958106965212d426d8152cab6ae6b18e",
+      "date": "2024-01-16T16:05:16+00:00",
+      "message": "Merge \"rbd: Support options for deferred deletion\""
+    },
+    {
+      "sha": "03f100c350407d203aa0667cf1c009c8cd1acf9b",
+      "date": "2024-01-16T03:03:17+00:00",
+      "message": "rbd: Support rbd_concurrent_flatten_operations option"
+    },
+    {
+      "sha": "bfa6540457fa50ca1f49e71bf495655bc2794b99",
+      "date": "2024-01-16T03:03:17+00:00",
+      "message": "rbd: Support options for deferred deletion"
+    },
+    {
+      "sha": "fa8e1ced411200454ccf74f9e81139d723964d05",
+      "date": "2024-01-09T06:54:34+00:00",
+      "message": "Merge \"pure: Remove redundant default of use_chap_auth\""
+    },
+    {
+      "sha": "4864602199f71600e890e620ae7b01a62955e105",
+      "date": "2024-01-03T03:10:39+00:00",
+      "message": "Fix misplaced release note file"
+    },
+    {
+      "sha": "5aa9db26365bffa4d8113ae4bdecf0b571ba19fc",
+      "date": "2024-01-03T01:57:32+00:00",
+      "message": "pure: Remove redundant default of use_chap_auth"
+    },
+    {
+      "sha": "0db533332828e003f7419c9e75280ad482186781",
+      "date": "2024-01-02T16:58:22+00:00",
+      "message": "Merge \"Support image volume cache options\""
+    },
+    {
+      "sha": "376325ddc1f5cb4a7e831d13d3078479c0c377d2",
+      "date": "2024-01-02T16:58:21+00:00",
+      "message": "Merge \"gpfs: Support volume_backend_name option\""
+    },
+    {
+      "sha": "5dcee763a51ab9bfb743f3e9e898bd2bd1d31a69",
+      "date": "2024-01-02T16:46:26+00:00",
+      "message": "Merge \"Fix wrong source to define volume_backend_name\""
+    },
+    {
+      "sha": "faf117f9f8958c32b8425883e238df496b5e5165",
+      "date": "2023-12-26T09:17:30+00:00",
+      "message": "Support image volume cache options"
+    },
+    {
+      "sha": "125db0de152493e7d3b602e05abcb8b2672a6cab",
+      "date": "2023-12-26T04:07:45+00:00",
+      "message": "gpfs: Support volume_backend_name option"
+    },
+    {
+      "sha": "ae990b24512b1c9f3ffb9313c215df83cbf51f89",
+      "date": "2023-12-26T04:06:20+00:00",
+      "message": "Fix wrong source to define volume_backend_name"
+    },
+    {
+      "sha": "0f500ef7da98b9579f801132f70e030e8d56922f",
+      "date": "2023-12-25T03:58:37+00:00",
+      "message": "cinder_type: Fix regex for properties to accept short value"
+    },
+    {
+      "sha": "c4815933719682ae6b1fcbbf83ff2a2ca0973dcd",
+      "date": "2023-12-11T13:20:10+00:00",
+      "message": "Use undef for package/service name"
+    },
+    {
+      "sha": "8273a44172d073099deb1c83088d255e8d3c1a9e",
+      "date": "2023-11-20T18:34:12+00:00",
+      "message": "Merge \"Use new openstackclient tag\""
+    },
+    {
+      "sha": "a3f52d40e6c2e9500ab966e218e0000f7c4596dd",
+      "date": "2023-11-19T18:01:50+00:00",
+      "message": "Fix wrong anchor in quota_set"
+    },
+    {
+      "sha": "d78df82f85dba75e7e61a036fd9831e51aaed00b",
+      "date": "2023-11-19T15:38:09+00:00",
+      "message": "Use new openstackclient tag"
+    },
+    {
+      "sha": "89b9c7cd13aeaf87429ae02a6ae017c35f3268d8",
+      "date": "2023-11-18T09:05:42+00:00",
+      "message": "Bump supported Debian version to 12 (Bookworm)"
+    },
+    {
+      "sha": "04e3d15f1a57fc9593a3e94d4e02714afa5f4a56",
+      "date": "2023-11-16T08:36:01+00:00",
+      "message": "Stop reading keystone_authtoken options"
+    },
+    {
+      "sha": "5451b7135b486e8d7a8936adbc0f0d5298f5c3c3",
+      "date": "2023-10-20T12:08:52+00:00",
+      "message": "Add support for reserved_percentage option"
+    },
+    {
+      "sha": "d4112d8a79362bed6fc4abe9a73e4ff87a18826a",
+      "date": "2023-10-18T19:32:49+00:00",
+      "message": "Merge \"Validate protocols using parameter types\""
+    },
+    {
+      "sha": "5b379942a666d10099a0013ccd637ff0b7235745",
+      "date": "2023-10-18T17:46:06+00:00",
+      "message": "Merge \"powermax: Support array for powermax_port_groups\""
+    },
+    {
+      "sha": "bec5c873e41e23f6044f4bf8f6fb61ab0d43e625",
+      "date": "2023-10-18T10:52:18+00:00",
+      "message": "Validate protocols using parameter types"
+    },
+    {
+      "sha": "aaadd0ec5070c3651b246d9936b8a2048a8104ea",
+      "date": "2023-10-18T03:51:21+00:00",
+      "message": "powermax: Support array for powermax_port_groups"
+    },
+    {
+      "sha": "56759aac72980c2c3323e8bb3802a462a8f09655",
+      "date": "2023-10-16T15:15:25+00:00",
+      "message": "Update master for stable/2023.2"
+    },
+    {
+      "sha": "e4bac8464801db9f7c1340d997a66929982bf7e7",
+      "date": "2023-10-12T14:18:32+00:00",
+      "message": "lvm: Ensure target_ip_address is purged"
+    },
+    {
+      "sha": "90ac98f5ded7ca76d6c5157ad75e8ba32791813e",
+      "date": "2023-10-12T02:50:37+00:00",
+      "message": "Merge \"nfs: Require nfs_servers\""
+    },
+    {
+      "sha": "fdf9d8f72918eb5d40b0afa50080346ce485d161",
+      "date": "2023-10-11T02:56:21+00:00",
+      "message": "Remove usage of deleted manifest_dir"
+    },
+    {
+      "sha": "d3de750bc8e3ebf939487da11d7ed1b95bb7802c",
+      "date": "2023-10-07T08:01:09+00:00",
+      "message": "nfs: Require nfs_servers"
+    },
+    {
+      "sha": "4f158c247416a1f63a8b7fee142041568a826b1c",
+      "date": "2023-10-03T17:15:37+00:00",
+      "message": "Merge \"Prepare 2023.2 release\""
+    },
+    {
+      "sha": "eb0dede6d9f8a6b1dc86ce425067520b1c5ae206",
+      "date": "2023-10-03T07:59:56+00:00",
+      "message": "Prepare 2023.2 release"
+    },
+    {
+      "sha": "43c8156b134b25c033f0e6d42b49a93826052ed6",
+      "date": "2023-10-03T04:04:17+00:00",
+      "message": "Bump upper version of stdlib"
+    }
+  ],
+  "openstack/puppet-horizon": null,
+  "openstack/puppet-swift": [
+    {
+      "sha": "d2bb6e9a244d8863c5e193333f305edb1ecd8864",
+      "date": "2025-09-25T17:28:34+00:00",
+      "message": "Merge \"Validate ensure parameter for package resources\""
+    },
+    {
+      "sha": "6d3abccd29f023fbef576fbdb71dc546cb7294ad",
+      "date": "2025-09-23T12:38:50+00:00",
+      "message": "Validate ensure parameter for package resources"
+    },
+    {
+      "sha": "d2feff8ac92b665e1d689449b2a1f8ebd0a0a58e",
+      "date": "2025-09-22T22:49:00+00:00",
+      "message": "Merge \"metadata.json: Support Debian 13\""
+    },
+    {
+      "sha": "238aa9803f7f9cc4b27639ad6ccb81950640ec46",
+      "date": "2025-09-22T22:48:58+00:00",
+      "message": "Merge \"Add type definitions for log parameters\""
+    },
+    {
+      "sha": "f87e88994cc09008aa200756103afdaf698559e7",
+      "date": "2025-09-22T12:12:24+00:00",
+      "message": "metadata.json: Support Debian 13"
+    },
+    {
+      "sha": "e3323504c10909dd93ca6db8fc324a69701d6126",
+      "date": "2025-09-20T09:34:34+00:00",
+      "message": "Add type definitions for log parameters"
+    },
+    {
+      "sha": "49ccbb3df6736af2e8a9922d3b4599f28fb3472b",
+      "date": "2025-09-19T23:45:34+00:00",
+      "message": "cname_lookup: Accept array for nameservers"
+    },
+    {
+      "sha": "4f67d98df41893b5fc75412627d568b21a1b0d3e",
+      "date": "2025-09-15T17:16:58+00:00",
+      "message": "Prepare to enable only_variable_string"
+    },
+    {
+      "sha": "f6316488162e34b1036c78206d3277df976a8c58",
+      "date": "2025-09-03T02:02:18+00:00",
+      "message": "Remove support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "62dbcf21780fe2a3ec7d14ac2fb2751852b301bf",
+      "date": "2025-08-23T04:35:45+00:00",
+      "message": "Merge \"Prepare for voxpupuli-puppet-lint-plugins\""
+    },
+    {
+      "sha": "73d0dbfb0a81f5ead623d87dc07abee087eac075",
+      "date": "2025-08-20T07:01:23+00:00",
+      "message": "Prepare for voxpupuli-puppet-lint-plugins"
+    },
+    {
+      "sha": "bd7c206767d50005b7885427aea874f39ea185d8",
+      "date": "2025-08-19T01:29:25+00:00",
+      "message": "Remove puppet 7 support"
+    },
+    {
+      "sha": "fe82252e68af1d94c981668f54f87dd3f7baf595",
+      "date": "2025-08-19T01:29:25+00:00",
+      "message": "Prepare for new lint plugins"
+    },
+    {
+      "sha": "964f0ea13400a98158ff7a78a23a199face3018a",
+      "date": "2025-08-14T09:19:23+00:00",
+      "message": "Switch to namespace sdtlib functions"
+    },
+    {
+      "sha": "dc390cde25d9090b4fa2c1c1309c610159abeb0e",
+      "date": "2025-06-28T15:11:59+00:00",
+      "message": "object-expirer: Support more tunables"
+    },
+    {
+      "sha": "4d5a237a67f72dd5d0366c0be146bbfae51e094a",
+      "date": "2025-05-05T16:39:15+00:00",
+      "message": "Merge \"Remove misplaced release note file\""
+    },
+    {
+      "sha": "a57ceaec5bcb1dce8ca67ad9fdaf464029f1e1b3",
+      "date": "2025-05-01T14:31:38+00:00",
+      "message": "Remove misplaced release note file"
+    },
+    {
+      "sha": "1788d169fe68039cbe679634834509e0890120c7",
+      "date": "2025-04-27T13:09:43+00:00",
+      "message": "Use structured facts to define confinement"
+    },
+    {
+      "sha": "5a5a7e816214026dfe480da9664a4d16d3458784",
+      "date": "2025-04-17T14:51:50+00:00",
+      "message": "Clean up remaining logic for amqp messaging driver"
+    },
+    {
+      "sha": "3b639afc9eab230f45b752e8f37c37d7debff68a",
+      "date": "2025-04-16T08:42:16+00:00",
+      "message": "Update master for stable/2025.1"
+    },
+    {
+      "sha": "6e5bba4e4be2a95e75c8c5557cd52427336e73a2",
+      "date": "2025-04-08T16:29:10+00:00",
+      "message": "Merge \"Bump Ubuntu version\""
+    },
+    {
+      "sha": "9848342cd73973ff7402dfd82dd457cb50c47684",
+      "date": "2025-04-06T15:15:55+00:00",
+      "message": "Replace deprecated File.exists?"
+    },
+    {
+      "sha": "f6e6e99b32118902143b8d4e0d0a2e701020d1a5",
+      "date": "2025-04-05T13:29:50+00:00",
+      "message": "Bump Ubuntu version"
+    },
+    {
+      "sha": "d9bd2f0cd56ba1d801678613cb7f5a38b999a803",
+      "date": "2025-03-31T05:56:01+00:00",
+      "message": "Prepare 2025.1 release"
+    },
+    {
+      "sha": "c2f61c6e72402bee493d35b2845604c3f265fcd1",
+      "date": "2025-03-26T10:15:49+00:00",
+      "message": "Add missing rabbitmq params"
+    },
+    {
+      "sha": "1b251bfd6a145a3bbf08fb8a13700f5cb27c3065",
+      "date": "2025-03-12T19:54:00+00:00",
+      "message": "Merge \"Bump upper cap of puppet-memcached\""
+    },
+    {
+      "sha": "1434beceb7c6d7b43036f325c87da60e79392a38",
+      "date": "2025-03-11T18:16:35+00:00",
+      "message": "Merge \"Install packages before ensuring container-sync-realms.conf\""
+    },
+    {
+      "sha": "fa53dcf5f5b9bb914bfd6fa046e0a111fcf3f057",
+      "date": "2025-03-11T13:14:19+00:00",
+      "message": "Bump upper cap of puppet-memcached"
+    },
+    {
+      "sha": "7b132a881fd01e83c633cf4c5b159c3039e74552",
+      "date": "2025-03-11T11:45:32+00:00",
+      "message": "Drop unnecessary memcached::max_memory"
+    },
+    {
+      "sha": "5fc89ad7874d6f876a9b12af38006e0d03674d5b",
+      "date": "2025-03-09T00:32:44+00:00",
+      "message": "Install packages before ensuring container-sync-realms.conf"
+    },
+    {
+      "sha": "fb53f21702176116c2e8133d9ef0b0b299f08bfd",
+      "date": "2025-03-09T00:32:25+00:00",
+      "message": "Fix new lint errors"
+    },
+    {
+      "sha": "fa28c1cd58b1e2d02faf1a589dbd186c6367bcd6",
+      "date": "2025-02-24T10:20:57+00:00",
+      "message": "Add support for stale_worker_timeout option"
+    },
+    {
+      "sha": "4c95be36b4d21061cb1d5adec327a0b2f7b78c75",
+      "date": "2025-02-24T10:20:47+00:00",
+      "message": "Add support for swift_owner_headers option"
+    },
+    {
+      "sha": "88d364c8850ab796cbac2fa7ecfcdbabe217888a",
+      "date": "2025-02-20T00:55:26+00:00",
+      "message": "Deprecate support for [oslo_messaging_rabbit] heartbeat_in_pthread"
+    },
+    {
+      "sha": "b7fbe8740c001ed30eebfef9685e733f5ff260ac",
+      "date": "2025-02-14T15:43:21+00:00",
+      "message": "Merge \"Mark puppet 8 supported\""
+    },
+    {
+      "sha": "561d1801e3096caf3f7a424d9221ca168694356f",
+      "date": "2025-02-14T13:53:42+00:00",
+      "message": "Mark puppet 8 supported"
+    },
+    {
+      "sha": "ade8b31f9a270b1e69d434da9113a29eed3f3d49",
+      "date": "2025-02-08T17:37:44+00:00",
+      "message": "Deprecate support for expiring_objects_account_name"
+    },
+    {
+      "sha": "cafa9a6ab7944f76b054f6ea52f21caa1b1830b1",
+      "date": "2025-01-23T16:11:30+00:00",
+      "message": "reno: Update master for unmaintained/2023.1"
+    },
+    {
+      "sha": "cd0dd760149a708720e3dc0a9a8403a5b6ad0ab8",
+      "date": "2025-01-15T10:10:52+00:00",
+      "message": "Remove swauth support"
+    },
+    {
+      "sha": "feec56d0c8e9f9a4b2ad52fe649ade5e814bc13c",
+      "date": "2025-01-15T03:31:12+00:00",
+      "message": "Fix undefined variable"
+    },
+    {
+      "sha": "275d6a2ffe2092a14e1402047835db60e978b674",
+      "date": "2024-10-31T15:04:59+00:00",
+      "message": "Merge \"Use specific log name for independent daemons\""
+    },
+    {
+      "sha": "18b6f051faec135ad191780aaba503924ea5abfd",
+      "date": "2024-10-28T15:47:29+00:00",
+      "message": "Merge \"drive-audit: Simplify handling of log udp options\""
+    },
+    {
+      "sha": "f9554393fda20fff76969c10f7c31548ca4329a7",
+      "date": "2024-10-28T15:47:28+00:00",
+      "message": "Merge \"Support customizing log_max_line_length\""
+    },
+    {
+      "sha": "260ab6af218275a688f58fa22871c2a56b73efeb",
+      "date": "2024-10-28T15:31:09+00:00",
+      "message": "Merge \"Support more log_address options\""
+    },
+    {
+      "sha": "21f883bccfd119eff9589e08994913351f317e1a",
+      "date": "2024-10-28T15:31:08+00:00",
+      "message": "Merge \"objectexpirer: Fix lack of validation of service_provider\""
+    },
+    {
+      "sha": "fbe591166cfd24c1a38d8ea49314f0fdbd82651c",
+      "date": "2024-10-26T18:18:32+00:00",
+      "message": "Use specific log name for independent daemons"
+    },
+    {
+      "sha": "90dbcc126074f7daed8fdb701ba13682dade8ab1",
+      "date": "2024-10-26T11:59:21+00:00",
+      "message": "drive-audit: Simplify handling of log udp options"
+    },
+    {
+      "sha": "8afd4fa6d31dffa144c9f64bbb4d1d449326db41",
+      "date": "2024-10-26T11:58:25+00:00",
+      "message": "Support customizing log_max_line_length"
+    },
+    {
+      "sha": "e4941136f1eaa98085c0bb606478b0169066ec41",
+      "date": "2024-10-26T09:26:28+00:00",
+      "message": "Support more log_address options"
+    },
+    {
+      "sha": "90a97dbbbcae19357d60b83a95054ba3b441adac",
+      "date": "2024-10-26T09:24:16+00:00",
+      "message": "objectexpirer: Fix lack of validation of service_provider"
+    },
+    {
+      "sha": "84c31437c0ae6de0785bad867dca8666d8587d8c",
+      "date": "2024-10-26T04:08:15+00:00",
+      "message": "proxy: Support options to enable SSL"
+    },
+    {
+      "sha": "80db22c066e7ac7e831370fc92de4a99a666ebda",
+      "date": "2024-10-04T10:41:22+00:00",
+      "message": "Update master for stable/2024.2"
+    },
+    {
+      "sha": "430536d6c8f4f94e29d00c41ce0c31c0064a058c",
+      "date": "2024-10-02T01:32:42+00:00",
+      "message": "Prepare 2024.2 release"
+    },
+    {
+      "sha": "9b1d41ad2229763f87b99f96360f10457b6a135d",
+      "date": "2024-09-25T07:02:58+00:00",
+      "message": "Merge \"Fix missing puppet-oslo dependency\""
+    },
+    {
+      "sha": "c9b7819a2342ecf044a6e48a9c140bc6a1cf087b",
+      "date": "2024-09-24T22:37:07+00:00",
+      "message": "Merge \"Remove unused test script\""
+    },
+    {
+      "sha": "c04d12ee9e9c1d65c475e0fc7e9e16069203eb1d",
+      "date": "2024-09-24T22:23:28+00:00",
+      "message": "Merge \"Stop manipulating SELinux state\""
+    },
+    {
+      "sha": "b09cff2f916a6b7497bc6c2a979ae4826239e98e",
+      "date": "2024-09-24T14:34:03+00:00",
+      "message": "Fix missing puppet-oslo dependency"
+    },
+    {
+      "sha": "d2845254bfd27ba9489b468d28dbb1ee14d8314c",
+      "date": "2024-09-23T18:38:56+00:00",
+      "message": "Merge \"Add validations for keystone resource parameters\""
+    },
+    {
+      "sha": "c8f1cb326c7988bcde52b9c8706c9ccc1df5038f",
+      "date": "2024-09-23T16:34:29+00:00",
+      "message": "Remove unused test script"
+    },
+    {
+      "sha": "0294685932bf4c9c1974804729a8cd56bcf4f002",
+      "date": "2024-09-23T16:31:51+00:00",
+      "message": "Stop manipulating SELinux state"
+    },
+    {
+      "sha": "93f15aa78c378dd853e000156ad14dfff15fa394",
+      "date": "2024-09-20T13:03:37+00:00",
+      "message": "Define separator explicitly in set_value call"
+    },
+    {
+      "sha": "b788228cfd55206dbfae79edfd2c04aaded8a1dc",
+      "date": "2024-09-18T07:07:18+00:00",
+      "message": "Add validations for keystone resource parameters"
+    },
+    {
+      "sha": "5b6630e97b11af319ae364c51693147180f6f203",
+      "date": "2024-08-14T09:44:56+00:00",
+      "message": "storage: Add support for db_preallocation"
+    },
+    {
+      "sha": "ebc1224ee186f6fda5f617b924e004c4c0939817",
+      "date": "2024-07-29T23:51:45+00:00",
+      "message": "proxy: Adjust parameter description"
+    },
+    {
+      "sha": "1033656f6ced0618796358fce9f7e73ff4583df0",
+      "date": "2024-07-29T23:51:45+00:00",
+      "message": "Accept array/dict for affinity options"
+    },
+    {
+      "sha": "ea34ed8ee99315c32389d3c1a974348636c918f5",
+      "date": "2024-07-29T23:51:41+00:00",
+      "message": "Support more options to control internal request behavior"
+    },
+    {
+      "sha": "b97128abdbaa4f016af7dd3736a940752fa1768a",
+      "date": "2024-07-29T16:47:24+00:00",
+      "message": "Require write_affinity when write_affinity_node_count is customized"
+    },
+    {
+      "sha": "2f38c2923bd460563ea5645ac51312359029f1d7",
+      "date": "2024-07-29T16:47:20+00:00",
+      "message": "Allow customizing sorting_method"
+    },
+    {
+      "sha": "d9eda0394f27618ffb1391288e21e9d6bf1d44f4",
+      "date": "2024-07-29T08:52:26+00:00",
+      "message": "Merge \"Support per-method backend ratelimit options\""
+    },
+    {
+      "sha": "968faff446ff3447a03e865f39a836ca48b2d000",
+      "date": "2024-07-29T08:47:23+00:00",
+      "message": "Merge \"Support [DEFAULT] cors_expose_headers\""
+    },
+    {
+      "sha": "4ba38634516b56a3e3dfc40a2822be0fbea53608",
+      "date": "2024-07-09T15:45:05+00:00",
+      "message": "Support per-method backend ratelimit options"
+    },
+    {
+      "sha": "5297605ad402e4eabaf046bdc27537dbd6460b7f",
+      "date": "2024-07-09T15:39:11+00:00",
+      "message": "Support [DEFAULT] cors_expose_headers"
+    },
+    {
+      "sha": "845404bd05586f315ae27e9a46d95c5529651781",
+      "date": "2024-07-09T12:45:39+00:00",
+      "message": "Add support for allow_open_expired"
+    },
+    {
+      "sha": "e0cb20b5061515b63484d2aad2abbbebab921c4a",
+      "date": "2024-06-27T16:00:21+00:00",
+      "message": "Merge \"Set appropriate ownership/permission to config files\""
+    },
+    {
+      "sha": "3d72d3b0ea5fbdc9ac2ff7ad771d9ecd7557d0d5",
+      "date": "2024-06-17T03:26:36+00:00",
+      "message": "Support for barbican_endpoint in kms_keymaster"
+    },
+    {
+      "sha": "b0e59971b871c5432c93bbcddfb11edf60c15812",
+      "date": "2024-06-11T03:03:47+00:00",
+      "message": "Set appropriate ownership/permission to config files"
+    },
+    {
+      "sha": "7f1a945550ccb1bc7f2e62071b22bae3937b794b",
+      "date": "2024-06-09T17:31:21+00:00",
+      "message": "Add keymaster middleware"
+    },
+    {
+      "sha": "140456e44a2d6fc921d0b16ce81eb04ca2eb7946",
+      "date": "2024-05-23T14:16:48+00:00",
+      "message": "Bump upper version of puppet-memcached"
+    },
+    {
+      "sha": "2a5ec303af64087c82cb78bb1110dce04e5a209d",
+      "date": "2024-05-14T15:51:59+00:00",
+      "message": "Merge \"Ensure app/filter factory options exist\""
+    },
+    {
+      "sha": "a123fd166bfdb161071d9869c69a6769ad8f5990",
+      "date": "2024-05-14T03:42:59+00:00",
+      "message": "Ensure app/filter factory options exist"
+    },
+    {
+      "sha": "f07105ad248be0e46f497d82506fac28c7191e36",
+      "date": "2024-05-13T12:45:46+00:00",
+      "message": "Expose log_name_per_daemon configurable"
+    },
+    {
+      "sha": "2655744dcf1c103a007050ededc07aa84d135946",
+      "date": "2024-05-10T09:26:05+00:00",
+      "message": "reno: Update master for unmaintained/zed"
+    },
+    {
+      "sha": "8476a1914e947703a31968af0b5228668f50fc6b",
+      "date": "2024-05-08T08:14:03+00:00",
+      "message": "Remove support for amqp1 messaging driver"
+    },
+    {
+      "sha": "f07444d3c462991f4fd02dc3f766807960bb84c8",
+      "date": "2024-05-02T06:48:33+00:00",
+      "message": "Allow using device uuid in storage::mount"
+    },
+    {
+      "sha": "9ac945a2cb6d4d6ad995dc064317d777856c3999",
+      "date": "2024-05-01T15:47:39+00:00",
+      "message": "Add unit test of Swift::MountDevice type"
+    },
+    {
+      "sha": "b35d4af6190cf829822770cb0bdf5467b560e1df",
+      "date": "2024-04-26T05:21:36+00:00",
+      "message": "Merge \"ceilometer: Require default_transport_url\""
+    },
+    {
+      "sha": "e4cd48cc5049c299c021f354eeb4720fe729f9ec",
+      "date": "2024-04-26T03:32:23+00:00",
+      "message": "Merge \"Make sure storage server config files are not world-readable\""
+    },
+    {
+      "sha": "bca2639e5bf8299f9331a39d17888dac82a54ce3",
+      "date": "2024-04-26T00:59:08+00:00",
+      "message": "ceilometer: Require default_transport_url"
+    },
+    {
+      "sha": "bba25b4a953686deeec8d6278e583bb1b0d48102",
+      "date": "2024-04-25T17:06:58+00:00",
+      "message": "Merge \"ceilometer: Fix wrong rendering of ignore_projects\""
+    },
+    {
+      "sha": "f2ee4500cd1c4245f093ab8c3f521d8c6836d9b3",
+      "date": "2024-04-25T15:37:22+00:00",
+      "message": "Merge \"ceilometer: Use dedicated config file for oslo.messaging options\""
+    },
+    {
+      "sha": "b5905818caa84ba43c1ca1bf6281b8854d99b68a",
+      "date": "2024-04-25T15:37:21+00:00",
+      "message": "Merge \"Remove config_file_path\""
+    },
+    {
+      "sha": "1347526af1fb5c392b0539f133a977685c0ae95a",
+      "date": "2024-04-25T15:24:50+00:00",
+      "message": "Merge \"Avoid deprecated config_file_path\""
+    },
+    {
+      "sha": "217144a91b09271e85847b3497284dfc62b24a7d",
+      "date": "2024-04-25T15:24:48+00:00",
+      "message": "Merge \"proxy: Support keepalive_timeout\""
+    },
+    {
+      "sha": "003f4fe6ea49fd705d3e7fb1d7a6986431cdd18d",
+      "date": "2024-04-23T15:53:55+00:00",
+      "message": "Make sure storage server config files are not world-readable"
+    },
+    {
+      "sha": "e751dda37b549d26f4bf5c097e7d1ce8f1aa08b4",
+      "date": "2024-04-23T00:55:07+00:00",
+      "message": "ceilometer: Fix wrong rendering of ignore_projects"
+    },
+    {
+      "sha": "119d8fc8190783723df81e92d540f5fa482f961b",
+      "date": "2024-04-22T16:18:01+00:00",
+      "message": "ceilometer: Use dedicated config file for oslo.messaging options"
+    },
+    {
+      "sha": "e701669ba97652f0ba42cdb09e9387003bf4e4ac",
+      "date": "2024-04-20T08:46:30+00:00",
+      "message": "Remove config_file_path"
+    },
+    {
+      "sha": "f5be5ea566b36915fa692477afc11c0c7ea4ac7c",
+      "date": "2024-04-20T08:46:30+00:00",
+      "message": "Avoid deprecated config_file_path"
+    },
+    {
+      "sha": "d9f986eb0a6bf05aaeda007854f5f9572ecfe0be",
+      "date": "2024-04-19T01:27:49+00:00",
+      "message": "proxy: Support keepalive_timeout"
+    },
+    {
+      "sha": "9c66538fec2e33e9df8cd778402d37e204c07468",
+      "date": "2024-04-18T10:50:31+00:00",
+      "message": "Update master for stable/2024.1"
+    },
+    {
+      "sha": "3af1a20fe010caa1af233a9c2572699d80ca8704",
+      "date": "2024-04-15T13:34:42+00:00",
+      "message": "Prepare 2024.1 release"
+    },
+    {
+      "sha": "caf63f71e0184ca6b0549a9742ed39b9f3c0ca12",
+      "date": "2024-04-12T13:10:44+00:00",
+      "message": "Merge \"reno: Update master for unmaintained/xena\""
+    },
+    {
+      "sha": "a65ace65d49a54bcf15b7212fb92ef3ce793af18",
+      "date": "2024-04-12T12:35:21+00:00",
+      "message": "reno: Update master for unmaintained/xena"
+    },
+    {
+      "sha": "0295507e30734068d4408c8746d23abc08117683",
+      "date": "2024-04-12T12:28:17+00:00",
+      "message": "reno: Update master for unmaintained/wallaby"
+    },
+    {
+      "sha": "f93968a061814bfd7238e420cc5deb84844fd5aa",
+      "date": "2024-04-08T07:48:25+00:00",
+      "message": "validate maxdelay for cron job"
+    },
+    {
+      "sha": "722d68b03644c8d6a832f386deec652132f21c9a",
+      "date": "2024-03-14T03:31:55+00:00",
+      "message": "Use creates property of exec"
+    },
+    {
+      "sha": "4105195a3bab182284fbc774dc90ce0aa82d64e1",
+      "date": "2024-02-29T18:30:49+00:00",
+      "message": "Merge \"disk: Expose more options\""
+    },
+    {
+      "sha": "93fa8870db7949a4067a9bd67b47ae4644dc33af",
+      "date": "2024-02-29T18:25:41+00:00",
+      "message": "Merge \"ext4: Sync interface with xfs\""
+    },
+    {
+      "sha": "dd5ebbb3f3c584faa92b2bd1a19eb95e36358bad",
+      "date": "2024-02-29T15:40:00+00:00",
+      "message": "Merge \"xfs: Support mount by label\""
+    },
+    {
+      "sha": "1e4265cc29d26399646c4eb705e629036703891a",
+      "date": "2024-02-29T09:33:29+00:00",
+      "message": "Merge \"Add data type validation for device handling\""
+    },
+    {
+      "sha": "e888e9c0d30c12d28ac176f46fdb6fcf69eed479",
+      "date": "2024-02-27T00:24:20+00:00",
+      "message": "disk: Expose more options"
+    },
+    {
+      "sha": "5d955ed0031de60d8e668e6a2efe8a919f0219a2",
+      "date": "2024-02-27T00:19:42+00:00",
+      "message": "ext4: Sync interface with xfs"
+    },
+    {
+      "sha": "9efd303bcbc8b32e6156ef0fff0eb5c571123eee",
+      "date": "2024-02-27T00:19:35+00:00",
+      "message": "xfs: Support mount by label"
+    },
+    {
+      "sha": "8af5b43b1ec27b5859e87c61e6d17c3b3abab47b",
+      "date": "2024-02-27T00:19:22+00:00",
+      "message": "Add data type validation for device handling"
+    },
+    {
+      "sha": "5e079643274aa39e55a51733dfee4c1fe7aab1ca",
+      "date": "2024-02-22T14:24:45+00:00",
+      "message": "Merge \"Support object-relinker\""
+    },
+    {
+      "sha": "d876d9249c51e1beeb5b8056b503a7888870e095",
+      "date": "2024-02-22T14:24:44+00:00",
+      "message": "Merge \"Add more log options\""
+    },
+    {
+      "sha": "c7405caf9095fd26f1ab84ea264b452bdfd88a5d",
+      "date": "2024-02-22T01:21:27+00:00",
+      "message": "Merge \"reno: Update master for unmaintained/yoga\""
+    },
+    {
+      "sha": "511b1da6f3b7221d9ec81c7f75983e8bd3febe97",
+      "date": "2024-02-21T18:42:59+00:00",
+      "message": "Merge \"Add support for read_only middleware\""
+    },
+    {
+      "sha": "97d203893fef00421b9e2897f7a756cae73af40b",
+      "date": "2024-02-21T16:52:00+00:00",
+      "message": "reno: Update master for unmaintained/yoga"
+    },
+    {
+      "sha": "e768302b78dea6c65aca7a262c0d9349e5e8192d",
+      "date": "2024-02-20T07:06:28+00:00",
+      "message": "Support object-relinker"
+    },
+    {
+      "sha": "dde528e8f5fb82d33947d4c96492a96326913b5c",
+      "date": "2024-02-20T04:53:41+00:00",
+      "message": "Add more log options"
+    },
+    {
+      "sha": "43035bc12e310c337061fcee96bb35e9eb06e501",
+      "date": "2024-02-20T03:06:01+00:00",
+      "message": "Per daemon log name"
+    },
+    {
+      "sha": "1b5eceeb3651bce0e129f5a5837812a7d6c8eb59",
+      "date": "2024-02-18T05:09:56+00:00",
+      "message": "Add support for read_only middleware"
+    },
+    {
+      "sha": "7a6179dad943e24bb4f9e6de2e81cf5bfd4bd058",
+      "date": "2024-01-22T17:29:57+00:00",
+      "message": "Merge \"storage: support timeout parameters\""
+    },
+    {
+      "sha": "526258d5965b2384684ed17fec96f7a89239c476",
+      "date": "2024-01-22T17:20:01+00:00",
+      "message": "Merge \"updater/reaper: Support interval option\""
+    },
+    {
+      "sha": "7021ac5ddba9407d106c582cb97c200d77e1ca65",
+      "date": "2024-01-19T15:10:53+00:00",
+      "message": "storage: support timeout parameters"
+    },
+    {
+      "sha": "1218a17d9b11b4e669cf1d2274f863fb1224c50a",
+      "date": "2024-01-19T10:37:05+00:00",
+      "message": "updater/reaper: Support interval option"
+    },
+    {
+      "sha": "73a672887b94729369fe0d166c1877f79da85e17",
+      "date": "2024-01-12T18:01:52+00:00",
+      "message": "Merge \"proxy: Fix typo in the dummy resource for pipeline validation\""
+    },
+    {
+      "sha": "fed53e44718ec003868642db33ccc90386041013",
+      "date": "2024-01-12T18:00:45+00:00",
+      "message": "Merge \"Fix handling of cors options\""
+    },
+    {
+      "sha": "a2d8fa30fea8fbca9aa594c77cf1863089cfbb37",
+      "date": "2024-01-12T17:42:43+00:00",
+      "message": "Merge \"Fix constraint related to dnspython\""
+    },
+    {
+      "sha": "b5a4ab89e88b25d6ee99a7aa16b02c726746aceb",
+      "date": "2024-01-12T17:42:41+00:00",
+      "message": "Merge \"Use ensure_resource to declare rsync::server\""
+    },
+    {
+      "sha": "64b7667b86d794828dd1c777d24035e5f1b993bf",
+      "date": "2024-01-10T10:31:07+00:00",
+      "message": "Use ensure_resource to declare rsync::server"
+    },
+    {
+      "sha": "a8c680d8f25efb0e7a012962fe7e4db602093568",
+      "date": "2024-01-10T06:55:30+00:00",
+      "message": "proxy: Fix typo in the dummy resource for pipeline validation"
+    },
+    {
+      "sha": "185fe9b25e8784b51c3249b323869d7b9a1c8049",
+      "date": "2024-01-10T06:50:33+00:00",
+      "message": "Fix handling of cors options"
+    },
+    {
+      "sha": "f77b2c23c9407a7aa4c434959470b5b8deb95bcd",
+      "date": "2024-01-10T06:20:13+00:00",
+      "message": "Fix constraint related to dnspython"
+    },
+    {
+      "sha": "26270f6a3ef4918036a1043148d206097be68a35",
+      "date": "2024-01-02T17:03:21+00:00",
+      "message": "Merge \"Support allowed_digests options\""
+    },
+    {
+      "sha": "92c01eb323fbefa9b2b400bd16aad8f5dfd15152",
+      "date": "2024-01-02T17:03:20+00:00",
+      "message": "Merge \"Ensure all keystone resources are created\""
+    },
+    {
+      "sha": "bc3749e1e41da03b985c466c7cad2f3448b6746a",
+      "date": "2024-01-02T17:03:19+00:00",
+      "message": "Merge \"ceilometer: Remove redundant default of nonblocking_notify\""
+    },
+    {
+      "sha": "19b1d5b2edea08b35c2faa09f08a0ac9d0bc0910",
+      "date": "2024-01-02T17:03:17+00:00",
+      "message": "Merge \"ceilometer: Purge topic and control_exchange by default\""
+    },
+    {
+      "sha": "385c66d388370ec9b8a443a0130bb4157ccc4794",
+      "date": "2023-12-27T00:05:28+00:00",
+      "message": "Support allowed_digests options"
+    },
+    {
+      "sha": "3fc6cb92b0513370e4e9db7823e4281b09989e80",
+      "date": "2023-12-24T16:00:10+00:00",
+      "message": "Ensure all keystone resources are created"
+    },
+    {
+      "sha": "a312a03bb89906bc69d7428238c38f0492870069",
+      "date": "2023-12-24T14:07:32+00:00",
+      "message": "ceilometer: Remove redundant default of nonblocking_notify"
+    },
+    {
+      "sha": "3244a67f56104517bf3a562b689a352cd08897c5",
+      "date": "2023-12-24T07:00:36+00:00",
+      "message": "ceilometer: Purge topic and control_exchange by default"
+    },
+    {
+      "sha": "0e3f254347f93ece93617f882ec4b7b6334968a2",
+      "date": "2023-12-05T15:19:03+00:00",
+      "message": "Merge \"Replace deprecated `stub` from rspec-mocks\""
+    },
+    {
+      "sha": "55df880f95b122a27c989088f4f2d982540dd221",
+      "date": "2023-12-04T14:53:24+00:00",
+      "message": "Replace deprecated `stub` from rspec-mocks"
+    },
+    {
+      "sha": "68bc8f1a2920ca27b3ad1da0c75695428312f27e",
+      "date": "2023-12-04T14:28:26+00:00",
+      "message": "Add purge_config support for service config files"
+    },
+    {
+      "sha": "f772e96e12500a8312c84275094010b51c886ee2",
+      "date": "2023-12-04T14:28:21+00:00",
+      "message": "Add parameter type validations"
+    },
+    {
+      "sha": "53198ba27499ad31f308cb94625b11648c3f12a2",
+      "date": "2023-12-04T14:27:39+00:00",
+      "message": "container-reconciler: Support more tunables"
+    },
+    {
+      "sha": "5611ed75f5c747080d0c45cdef85766eb9fd39a4",
+      "date": "2023-12-04T14:26:31+00:00",
+      "message": "container-reconciler: Enable cache middleware by default"
+    },
+    {
+      "sha": "d0b20eb5d986d3f424916b899a9232deb1a365bc",
+      "date": "2023-12-04T12:38:25+00:00",
+      "message": "Drop redundant default of cache_tls_enabled"
+    },
+    {
+      "sha": "9c10d867f38d6e896411c45e4e24b9d5bb4b7674",
+      "date": "2023-12-04T10:44:06+00:00",
+      "message": "Fix incomplete unit tests for swift::objectexpirer"
+    },
+    {
+      "sha": "4ae639589e7a2033bd39b0df7750e08dde5322a6",
+      "date": "2023-12-04T06:42:25+00:00",
+      "message": "Fix incomplete unit tests for swift::containerreconciler"
+    },
+    {
+      "sha": "f0a77d2cc2fe0939afc13f0db59fff7988d72df4",
+      "date": "2023-12-01T06:53:21+00:00",
+      "message": "Remove redundant hardcoded default of log_headers"
+    },
+    {
+      "sha": "300802a79d4f787b39bf2a0a82f7b85da093d601",
+      "date": "2023-12-01T06:53:13+00:00",
+      "message": "Make log_udp_port optional"
+    },
+    {
+      "sha": "e1f6e41ad001269b089360dc67f9612f9055859e",
+      "date": "2023-11-27T16:53:29+00:00",
+      "message": "Merge \"Deprecate incomplete config_file_path\""
+    },
+    {
+      "sha": "72e24e247cb6b7946ec5e9d35b94d0a95683d31e",
+      "date": "2023-11-27T16:53:28+00:00",
+      "message": "Merge \"Remove unnecessary file_line resources\""
+    },
+    {
+      "sha": "bb656e5ee8ceb8bc32889cfe1abe836b99386105",
+      "date": "2023-11-26T12:00:05+00:00",
+      "message": "Deprecate incomplete config_file_path"
+    },
+    {
+      "sha": "0d80ac78669480109703282c2a8b87ab81496ee9",
+      "date": "2023-11-26T11:44:29+00:00",
+      "message": "Remove unnecessary file_line resources"
+    },
+    {
+      "sha": "9325297393b336fc065612cdd32d45a36ffada18",
+      "date": "2023-11-26T11:23:38+00:00",
+      "message": "object-expirer: Remove deprecated auto_create_account_prefix"
+    },
+    {
+      "sha": "0f7f6bdee8fda718cc8bee16fa0d3511cb727491",
+      "date": "2023-11-20T18:43:32+00:00",
+      "message": "Merge \"Move out swift client from service packages\""
+    },
+    {
+      "sha": "0a2d1a26a16293f60f01c34c965e97c9e363160d",
+      "date": "2023-11-19T15:30:12+00:00",
+      "message": "Move out swift client from service packages"
+    },
+    {
+      "sha": "8221de3b4954c1f30d0a38d1f30453ed2b878798",
+      "date": "2023-11-18T09:25:27+00:00",
+      "message": "Bump supported Debian version to 12 (Bookworm)"
+    },
+    {
+      "sha": "f6b6102f4bbde4ae8309fb83954ba775cd1a53ea",
+      "date": "2023-11-15T17:13:59+00:00",
+      "message": "Merge \"Fix wrong PATH for chown\""
+    },
+    {
+      "sha": "810f90077ff5a557fad12082a4eb207ec2c834ed",
+      "date": "2023-11-15T17:12:13+00:00",
+      "message": "Merge \"Fix ignored notifications/orders\""
+    },
+    {
+      "sha": "13c449f012a8cce053301158a0718c4aa21fe0d7",
+      "date": "2023-11-15T12:35:09+00:00",
+      "message": "Fix wrong PATH for chown"
+    },
+    {
+      "sha": "db8eff9e4ec06506c4d6d5b820160addcbe42560",
+      "date": "2023-11-14T18:08:53+00:00",
+      "message": "Fix ignored notifications/orders"
+    },
+    {
+      "sha": "27bd79c88372281957080d4471f380f10d91adf8",
+      "date": "2023-10-17T16:12:45+00:00",
+      "message": "Merge \"keymaster: Ensure options are purged by default\""
+    },
+    {
+      "sha": "a89110453d089f0a69fa4816386067f291f9b846",
+      "date": "2023-10-17T16:12:44+00:00",
+      "message": "Merge \"Drop default password\""
+    },
+    {
+      "sha": "db792a32b2962df8746ae3a986fcb2fa596761ce",
+      "date": "2023-10-17T14:59:28+00:00",
+      "message": "Merge \"Fix ignored unit tests for swift::keymaster\""
+    },
+    {
+      "sha": "e6f5b32303b02ad09df1ca78311f089946dad3f4",
+      "date": "2023-10-17T04:49:45+00:00",
+      "message": "keymaster: Ensure options are purged by default"
+    },
+    {
+      "sha": "e46f3b4af397fec3cd62ee90ccb891984904219f",
+      "date": "2023-10-17T04:49:19+00:00",
+      "message": "Drop default password"
+    },
+    {
+      "sha": "4d8816e804b21e592dcbda4fbd3b1224d9831e99",
+      "date": "2023-10-17T03:15:14+00:00",
+      "message": "Fix ignored unit tests for swift::keymaster"
+    },
+    {
+      "sha": "0bd7db79e1bfccca6733ddc809278dbb7e00a8a2",
+      "date": "2023-10-16T15:20:17+00:00",
+      "message": "Update master for stable/2023.2"
+    },
+    {
+      "sha": "c9161c04d7ccbafd1acdec251b2c54e2390c9452",
+      "date": "2023-10-11T03:09:51+00:00",
+      "message": "Remove usage of deleted manifest_dir"
+    },
+    {
+      "sha": "0458d112d232103ef50480b255b607e7ac48f8e3",
+      "date": "2023-10-03T17:17:41+00:00",
+      "message": "Merge \"Prepare 2023.2 release\""
+    },
+    {
+      "sha": "e51d34b470a09e7e0f54d59ef058a24364f2b877",
+      "date": "2023-10-03T08:14:38+00:00",
+      "message": "Prepare 2023.2 release"
+    },
+    {
+      "sha": "18b67d89e49a70f8f426f3489cbb76284e92c89d",
+      "date": "2023-10-03T04:27:05+00:00",
+      "message": "Bump upper version of stdlib"
+    }
+  ]
+}
