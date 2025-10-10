@@ -60,13 +60,14 @@
 	% - Define what is considered a "defect" in an IaC script.
 	% - Summarize the work by Rahman & Williams (2019) and why it is relevant.
 	% - Introduce Research Questions RQ1 and RQ3.
-	Infrastructure as Code (IaC) is the practice of managing and provisioning computing infrastructure through machine-readable configuration files rather than manual processes. IaC enables organizations to automate deployments, enforce consistency across environments, and integrate infrastructure changes into the same version control and review processes used for traditional software development. By treating infrastructure specifications as code, teams can benefit from automated testing, continuous integration, and systematic reuse.
-	
-	Among the tools supporting IaC, \textit{Puppet} is one of the most widely adopted configuration management frameworks. Puppet scripts, written in the \texttt{.pp} language, define system resources such as files, packages, and services, and specify how these resources should be installed or configured. Puppet supports modularization through classes and modules, and allows practitioners to encode dependencies and constraints explicitly in source code form. Because of its popularity and availability in open source ecosystems, Puppet served as the focus of the original study.
-	
-	In this context, a \textit{defect} in an IaC script refers to an imperfection that requires repair or replacement. Defects can arise from incorrect configuration values, misplaced file paths, improper permissions, missing dependencies, or other implementation errors that compromise the reliability of automated deployment pipelines. Such defects can have severe consequences: for example, Rahman and Williams report a case where a defective Puppet script erased home directories for hundreds of Wikimedia users.
-	
-	The study by Rahman and Williams (2019) systematically investigated which source code properties of IaC scripts are correlated with defectiveness. Using data from four major open-source ecosystems (Mirantis, Mozilla, OpenStack, and Wikimedia Commons), they identified twelve measurable properties, including \emph{lines of code}, \emph{hard-coded strings}, and \emph{include} statements, that exhibit statistical correlation with defective scripts. They further validated these findings with a survey of practitioners and constructed defect prediction models using standard statistical learners. Their models achieved promising levels of precision and recall, demonstrating the practical utility of source code properties for defect prediction in IaC.
+Infrastructure as Code (IaC) is the practice of provisioning and managing computing infrastructure through machine-readable files rather than ad-hoc processes. IaC enables deployment automation, consistency across environments, and introduction of changes to infrastructure into the same application version control and review cycle as non-cloud software development. Treating infrastructure specifications as code enables teams to leverage automated testing, continuous integration, and formal reuse.
+
+Among the tools supporting IaC, \textit{Puppet} is a leading configuration management tool.
+Puppet scripts, written in the \texttt{.pp} programming language, state system resources such as files, packages, and services, and describe how such resources are to be installed or configured. Puppet supports modularization by classes and modules, and allows practitioners to encapsulate dependencies and constraints as explicit source code. Because of the popularity of Puppet and its availability as an open source, it was at the center of the first investigation.
+
+In this context, a \textit{defect} in an IaC script refers to a flaw that needs to be fixed or replaced. Defects may arise due to wrong configuration values, misplaced file paths, improper permissions, missing dependencies, or other implementation errors that compromise the integrity of automated deployment pipelines. Defects can have cataclysmic consequences: for example, Rahman and Williams report an incident in which a buggy Puppet script wiped out home directories of hundreds of Wikimedia users.
+
+Rahman and Williams (2019) investigated systematically what source code features of IaC scripts are statistically correlated with defectiveness. Using evidence from four large open-source ecosystems (Mirantis, Mozilla, OpenStack, and Wikimedia Commons), they identified twelve measurable features, e.g., \emph{lines of code}, \emph{hard-coded strings}, and \emph{include} statements, that are statistically correlated with defective scripts.	They followed these findings up with a practitioners' survey and constructed defect prediction models using typical statistical learners. Their models achieved promising levels of precision and recall, suggesting the empirical utility of source code features for defect prediction in IaC. 
 	
 	For this replication, we focus on two of their research questions:
 	\begin{itemize}
@@ -221,13 +222,13 @@ Pairwise Dunn tests confirmed that these differences were statistically signific
 	\end{tabular}
 \end{table}
 
-Compared to the original study, our replication shows broadly consistent patterns: 
-Random Forest and Logistic Regression provide the most robust defect prediction performance, while CART and KNN are less competitive. 
-AUC values are in the same range (0.70–0.80) as those reported by Rahman and Williams, confirming that source code properties alone can serve as useful predictors of defective IaC scripts. 
-One difference we observed is that Naive Bayes performed surprisingly well on the WIK dataset, whereas the original paper emphasized RF and LR as top performers across all datasets. 
-This deviation may be due to differences in data preprocessing or changes in dataset characteristics since the original release.
+Compared to the original study, our replication finds in general consistent patterns:
+Random Forest and Logistic Regression possess the most perfect defect prediction capability, and CART and KNN are less competitive.
+AUC values likewise fall within the same range (0.70–0.80) that Rahman and Williams reported, demonstrating that source code attributes alone are powerful predictors of buggy IaC scripts.
+One of the contrasts we observed is Naive Bayes surprisingly performing good on the WIK dataset, whereas the original paper reported RF and LR as the top performers across all the datasets.
+This difference may be brought about by differences in data preprocessing or changes in dataset patterns since the first release.
 
-Overall, the results support the conclusion that defect prediction models built on simple source code properties can achieve reasonable accuracy, and that ensemble methods such as Random Forest provide the most reliable performance across diverse datasets.
+In summary, the results support the conclusion that defect prediction models built on simple source code features may possess acceptable accuracy, and that ensemble methods such as Random Forest provide the most robust performance across a range of datasets.
 
 
 % ----------------------------------------------------------
@@ -246,26 +247,25 @@ Overall, the mining phase successfully replicates the filtering logic of the ori
 % - Compare with the authors’ reported performance (e.g., Random Forest outperforming Logistic Regression).
 % - Explain why your mining data were not reused for training (formative and optional step).
 % - Comment on reproducibility challenges (dataset availability, labeling via SZZ).
-Our results on RQ3 broadly confirm the findings of Rahman and Williams (2019). 
-In both the original and the replicated study, Random Forest and Logistic Regression emerge as the most reliable learners for predicting defective IaC scripts, consistently achieving AUC values in the 0.70–0.80 range. 
-This suggests that relatively simple statistical learners, when trained on counts of source code properties, can achieve prediction performance comparable to more complex text-based or process-based approaches. 
-In our replication, Random Forest performed best for the MOZ and OST datasets, while Logistic Regression was strongest on MIR, and Naive Bayes unexpectedly outperformed the other learners on WIK. 
-The latter deviation highlights that performance differences can be dataset-specific and sensitive to data characteristics such as class balance or feature distribution.
+Our results for RQ3 largely confirm the findings of Rahman and Williams (2019).
+Random Forest and Logistic Regression are the most stable learners to predict defective IaC scripts with AUC consistently between 0.70–0.80 in the replicated as well as the original study.
+This means that relatively simple statistical learners, trained on source code property counts, can achieve the same predictive performance as more complex text-based or process-based approaches.
+In our replication, Random Forest performed best for the MOZ and OST datasets, and Logistic Regression for MIR, while Naive Bayes surprisingly performed best of all on WIK.
+The second deviation stresses that performance differences are occasionally dataset-dependent and susceptible to data characteristics such as class balance or feature distribution.
 
-It is important to note that our mining data were not reused for model training. 
-The pipeline we developed to replicate repository collection and commit filtering was a formative step designed to validate the feasibility of the original restrictions (R1–R3). 
-However, reproducing the complete defect labeling process would have required extensive manual or semi-automated classification of commits, similar to the SZZ approach used in the original paper. 
-To ensure comparability and reproducibility, we relied on the publicly released datasets provided by Rahman and Williams, which already encode defect labels.
+Note that our mining data were not reused for model training.
+Our pipeline for reproducing repository collection and commit filtering was an exploratory step for checking the validity of the early limitations (R1–R3).
+However, replicating the whole defect labeling process would have required large-scale manual or semi-automated classification of commits, the same way it was performed for the SZZ approach in the original paper.
+For the sake of comparability and reproducibility, we fell back to the publicly available datasets provided by Rahman and Williams, which already constitute defect labels.
 
-From a reproducibility perspective, we encountered several challenges. 
-First, the original repositories have evolved substantially: many have migrated away from Puppet or exhibit different activity levels than in 2019, which complicates re-mining efforts. 
-Second, defect labeling depends on commit message interpretation and cross-referencing with issue trackers. 
-This process introduces subjectivity and, even when automated with SZZ-style heuristics, may yield inconsistencies across replications. 
+Reproducibility-wise, there were several challenges.
+First, the original repositories have evolved substantially: some have abandoned Puppet or have varying levels of activity in comparison to 2019, which makes re-mining difficult.
+Second, defect labeling depends on commit message interpretation and cross-validation with issue trackers.
+This leads to subjectivity and, even if automated using SZZ-style heuristics, can create variations across replications.
 Finally, subtle differences in preprocessing steps (e.g., feature extraction, log transformations, or PCA thresholds) can lead to shifts in which learners perform best, as observed in our results for WIK.
 
-Despite these challenges, the general trend remains robust: models trained on simple source code properties can achieve reasonable accuracy, and ensemble methods such as Random Forest are a strong default choice for practitioners. 
-Our replication reinforces the validity of property-based defect prediction while also highlighting the fragility of full reproducibility when datasets and ecosystems evolve over time.
-
+Despite these challenges, the general trend remains robust: models trained on simple source code properties can achieve reasonable accuracy, and ensemble methods such as Random Forest are a strong default choice for practitioners.
+Our reproduction affirms the validity of property-based defect prediction, while also demonstrating the vulnerability of full reproducibility as datasets and ecosystems evolve.
 
 	
 	\section{Conclusion}
@@ -274,23 +274,23 @@ Our replication reinforces the validity of property-based defect prediction whil
 	% - What limitations were found.
 	% - What your replication contributes (reproducibility, validation of constraints).
 	% - Future work (extend to other IaC tools, update datasets, etc.)
-	This replication set out to reproduce key parts of Rahman and Williams (2019), focusing on repository mining and the research questions RQ1 and RQ3. 
-	We successfully implemented the repository collection and filtering logic described in the original study, validating that the criteria based on repository accessibility, Puppet file ratio, and commit activity can be operationalized. 
-	Our mining confirmed that the methodology is sound, but also revealed that many of the original repositories no longer satisfy the defined restrictions, primarily due to migration away from Puppet and reduced activity. 
-	This highlights a common challenge in empirical software engineering: historical studies may become difficult to replicate as ecosystems evolve.
+This reproduction tried to reproduce core elements of Rahman and Williams (2019), covering repository mining and research questions RQ1 and RQ3.
+We could reproduce the repository collection and filtering logic of the original paper, and it was confirmed that the accessibility-based, Puppet file ratio-based, and commit activity-based criteria can be operationalized.
+Our mining reconfirmed that the empirical approach is sound, but also revealed that many original repositories no longer satisfy the given constraints, primarily due to migration away from Puppet and reduced activity.
+\tThis identifies a general problem in empirical software engineering: earlier studies can become difficult to replicate as ecosystems evolve.
+
+With the publicly available datasets, we replicated the analysis of source code features and defect correlation (RQ1), as well as constructing defect prediction models (RQ3).
+Our statistical tests confirmed that features such as \emph{lines of code} and \emph{hard-coded strings} consistently show strong correlation with defective scripts across datasets.
+In addition to our machine learning results being in agreement with the original results: Random Forest and Logistic Regression have a tendency to be the best predictive performers, with AUCs ranging from 0.70–0.80, while simpler learners like CART and KNN perform less well.
+{Some differences were observed (e.g., Naive Bayes performing well on the WIK dataset), yet general patterns are in agreement with the original paper.
+
+The biggest threats to our replication are from data availability and labeling.
+	We relied on authors' released datasets rather than creating defect labels ourselves because it entails subjective judgment and large-scale commit analysis.
+	Additionally, the migration of open-source projects away from Puppet reduces the external validity of direct application of the same approach today.
 	
-	Using the publicly released datasets, we replicated the analysis of source code properties and their correlation with defects (RQ1), as well as the construction of defect prediction models (RQ3). 
-	Our statistical tests confirmed that properties such as \emph{lines of code} and \emph{hard-coded strings} consistently show strong correlation with defective scripts across datasets. 
-	Furthermore, our machine learning results align with the original findings: Random Forest and Logistic Regression generally provide the best predictive performance, with AUC values in the 0.70–0.80 range, while simpler learners like CART and KNN are less competitive. 
-	Some deviations were observed (e.g., Naive Bayes performing strongly on the WIK dataset), but overall trends remain consistent with the original paper.
-	
-	The main limitations of our replication stem from data availability and labeling. 
-	We relied on the authors’ released datasets rather than regenerating defect labels ourselves, since this process involves subjective judgment and extensive commit analysis. 
-	In addition, the shift of open-source projects away from Puppet reduces the external validity of directly applying the same methodology today.
-	
-	Despite these limitations, our replication contributes by validating that the reported relationships between source code properties and defectiveness are reproducible, and by confirming that property-based models are a viable approach for IaC defect prediction. 
-	For future work, we suggest extending the analysis to other modern IaC tools such as Ansible, Chef, or Terraform, updating datasets to reflect current practices, and exploring hybrid models that combine source code properties with process or textual features. 
-	Such directions would strengthen the applicability of defect prediction research to the rapidly evolving DevOps landscape.
+Despite these limitations, our replication helps by validating that interactions between source code attributes and defectiveness reported in the literature are reproducible, and confirming that property-based models are a viable option for IaC defect prediction.
+For future work, we suggest extending analysis to other modern IaC tools such as Ansible, Chef, or Terraform, updating datasets to reflect current practice, and exploring hybrid solutions combining source code features with process or text features.
+Such directions would make defect prediction research more relevant to the rapidly evolving DevOps landscape.
 	
 
 	
