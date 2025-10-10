@@ -26,7 +26,7 @@
 		\IEEEauthorblockA{Montr\'eal, Canada \\
 			ali.entezari@polymtl.ca}
 		\and
-		\IEEEauthorblockN{4\textsuperscript{th} ...}
+		\IEEEauthorblockN{4\textsuperscript{th} Ohto Sysil$\dddot{a}$}
 		\IEEEauthorblockA{..., ... \\
 			...polymtl.ca}
 	}
@@ -93,7 +93,6 @@ Rahman and Williams (2019) investigated systematically what source code features
 	
 	By focusing on these two questions, our replication emphasizes both the identification of defect-related source code properties and the evaluation of predictive models that make use of them.
 	
-¡¡
 	\section{Methodology}
 	This section describes the process followed to replicate the repository mining phase and implement the filtering restrictions defined by Rahman and Williams (2019). All steps were automated in Python 3 using the GitHub REST API, ensuring reproducibility and independence from manual dataset curation.
 	
@@ -277,7 +276,7 @@ Our reproduction affirms the validity of property-based defect prediction, while
 This reproduction tried to reproduce core elements of Rahman and Williams (2019), covering repository mining and research questions RQ1 and RQ3.
 We could reproduce the repository collection and filtering logic of the original paper, and it was confirmed that the accessibility-based, Puppet file ratio-based, and commit activity-based criteria can be operationalized.
 Our mining reconfirmed that the empirical approach is sound, but also revealed that many original repositories no longer satisfy the given constraints, primarily due to migration away from Puppet and reduced activity.
-\tThis identifies a general problem in empirical software engineering: earlier studies can become difficult to replicate as ecosystems evolve.
+This identifies a general problem in empirical software engineering: earlier studies can become difficult to replicate as ecosystems evolve.
 
 With the publicly available datasets, we replicated the analysis of source code features and defect correlation (RQ1), as well as constructing defect prediction models (RQ3).
 Our statistical tests confirmed that features such as \emph{lines of code} and \emph{hard-coded strings} consistently show strong correlation with defective scripts across datasets.
